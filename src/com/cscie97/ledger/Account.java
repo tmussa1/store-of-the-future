@@ -3,29 +3,25 @@ package com.cscie97.ledger;
 import java.io.Serializable;
 import java.util.Objects;
 
-/*
-    @author - Tofik Mussa
-    This class is referenced in the block class. It's instance is created, address duplication is checked and balances
-    are maintained by the ledger
+/**
+    * @author Tofik Mussa
+    * This class is referenced in the block class. It's instance is created, address duplication is checked and balances
+    * are maintained by the ledger
 */
 public class Account implements Serializable {
 
     private String address;
     private int balance;
 
-    /*
-    A unique address is set to account during initialization. The ledger checks for duplicate addresses before initialization
+    /**
+     * A unique address is set to account during initialization. The ledger checks for duplicate addresses before
+     * initialization. No setters for address and hence it is immutable once Account is instantiated. The balance
+     * for every account during creation is zero. The ledger sets it to Integer.MAX_VALUE if the unique address
+     * that was passed in was master.
+     * @param address
      */
     public Account(String address) {
-        /*
-        No setters for address and hence it is immutable once Account is instantiated
-         */
         this.address = address;
-
-        /*
-        The balance for every account during creation is zero. The ledger sets it to Integer.MAX_VALUE if the unique address
-        that was passed in was master.
-         */
         this.balance = 0;
     }
 
@@ -37,26 +33,22 @@ public class Account implements Serializable {
         return balance;
     }
 
-    /*
-    Checks if balance is in the threshold and updates. Throws exception if balance is not in range
+    /**
+     * Checks if balance is in the threshold and updates.
+     * @param balance
+     * @throws LedgerException if balance is not in range
      */
     public void setBalance(int balance) throws LedgerException {
-
-        /*
-        add a valid balance
-         */
         if (isValidBalance(balance)) {
             this.balance = balance;
         } else {
-            /*
-                Throw exception for an invalid balance
-             */
             throw new LedgerException("Balance can not be set", "Balance must be between the range of 0 and 2147483647");
         }
     }
 
-    /*
-    Helper method to check if balance is in the threshold
+    /**
+    * Helper method to check if balance is in the threshold
+    * @param balance
      */
     private boolean isValidBalance(int balance) {
         return balance >= 0 && balance <= Integer.MAX_VALUE;

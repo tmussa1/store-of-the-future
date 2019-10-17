@@ -1,8 +1,8 @@
 package com.cscie97.ledger;
 
-/*
-    @author - Tofik Mussa
-    Utility class for exceptions thrown during validation failures
+/**
+    * @author - Tofik Mussa
+    * Utility class for exceptions thrown during validation failures
 */
 public class LedgerException extends Exception {
 
