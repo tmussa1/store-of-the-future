@@ -9,6 +9,12 @@ public class Address {
     private String city;
     private String state;
 
+    /**
+     *
+     * @param street
+     * @param city
+     * @param state
+     */
     public Address(String street, String city, String state) {
         this.street = street;
         this.city = city;

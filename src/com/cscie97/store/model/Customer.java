@@ -4,6 +4,7 @@ package com.cscie97.store.model;
 import java.time.LocalDateTime;
 
 /**
+ * A customer's information including current basket is stored here
  * @author Tofik Mussa
  */
 public class Customer {
@@ -18,6 +19,15 @@ public class Customer {
     private LocalDateTime timeLastSeen;
     private Basket basket;
 
+    /**
+     *
+     * @param customerId
+     * @param firstName
+     * @param lastName
+     * @param customerType
+     * @param emailAddress
+     * @param accountAddress
+     */
     public Customer(String customerId, String firstName, String lastName, CustomerType customerType, String emailAddress, String accountAddress) {
         this.customerId = customerId;
         this.firstName = firstName;
@@ -59,6 +69,10 @@ public class Customer {
         return timeLastSeen;
     }
 
+    /**
+     * Updates customer's location. The time customer was last seen also gets updated during this method invocation
+     * @param customerLocation
+     */
     public void setCustomerLocation(InventoryLocation customerLocation) {
         setTimeLastSeen(LocalDateTime.now());
         this.customerLocation = customerLocation;

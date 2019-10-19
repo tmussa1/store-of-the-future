@@ -1,18 +1,21 @@
 package com.cscie97.store.model;
 
+import com.cscie97.store.controller.IObserver;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * This is an implementation of the store model service interface
  * @author Tofik Mussa
  */
-
-public class StoreModelService implements IStoreModelService {
+public class StoreModelService implements IStoreModelService, ISubject {
 
     private List<Customer> customers;
     private List<Store> stores;
     private Map<String, Inventory> inventoryMap;
     private Map<String, Product> productMap;
+    private List<IObserver> observers;
     private static StoreModelService instance;
 
     private StoreModelService() {
@@ -20,6 +23,7 @@ public class StoreModelService implements IStoreModelService {
         this.stores = new ArrayList<>();
         this.inventoryMap = new HashMap<>();
         this.productMap = new HashMap<>();
+        this.observers = new ArrayList<>();
     }
 
     public static StoreModelService getInstance(){
@@ -30,11 +34,11 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Create a new store
      * @param storeId
      * @param storeName
      * @param storeAddress
-     * @return
+     * @return a store object
      * @throws StoreException
      */
     @Override
@@ -46,7 +50,7 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Checks for duplicate stores
      * @param storeId
      * @throws StoreException
      */
@@ -59,9 +63,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets store by store id
      * @param storeId
-     * @return
+     * @return Store
      * @throws StoreException
      */
     @Override
@@ -76,12 +80,12 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new aisle
      * @param storeId
      * @param aisleNumber
      * @param aisleDescription
      * @param location
-     * @return
+     * @return an aisle object
      * @throws StoreException
      */
     @Override
@@ -94,10 +98,10 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets aisle by store id and aisle number
      * @param storeId
      * @param aisleNumber
-     * @return
+     * @return an aisle object
      * @throws StoreException
      */
     @Override
@@ -111,7 +115,7 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new shelf object
      * @param storeId
      * @param aisleNumber
      * @param shelfId
@@ -119,7 +123,7 @@ public class StoreModelService implements IStoreModelService {
      * @param level
      * @param shelfDescription
      * @param temperature
-     * @return
+     * @return sehlf object
      * @throws StoreException
      */
     @Override
@@ -133,11 +137,11 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets shelf by store id, aisle number and shelf id
      * @param storeId
      * @param aisleNumber
      * @param shelfId
-     * @return
+     * @return a shelf object
      * @throws StoreException
      */
     @Override
@@ -151,7 +155,7 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new inventory object
      * @param inventoryId
      * @param storeId
      * @param aisleNumber
@@ -159,7 +163,7 @@ public class StoreModelService implements IStoreModelService {
      * @param capacity
      * @param count
      * @param productId
-     * @return
+     * @return inventory object
      * @throws StoreException
      */
     @Override
@@ -177,9 +181,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets inventory by inventory id
      * @param inventoryId
-     * @return
+     * @return an inventory object
      * @throws StoreException
      */
     @Override
@@ -197,7 +201,7 @@ public class StoreModelService implements IStoreModelService {
      * from the overall inventory count
      * @param inventoryId
      * @param difference
-     * @return
+     * @return inventory count
      * @throws StoreException
      */
     @Override
@@ -220,7 +224,7 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new product
      * @param productId
      * @param productName
      * @param productDescription
@@ -228,7 +232,7 @@ public class StoreModelService implements IStoreModelService {
      * @param category
      * @param price
      * @param temperature
-     * @return
+     * @return a product object
      */
     @Override
     public Product createAProduct(String productId, String productName, String productDescription, int size, String category, int price, String temperature) {
@@ -240,9 +244,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * gets a product by product id
      * @param productId
-     * @return
+     * @return product object
      * @throws StoreException
      */
     @Override
@@ -254,6 +258,12 @@ public class StoreModelService implements IStoreModelService {
         return product;
     }
 
+    /**
+     * Checks for a duplicate customer with the same account address and customer id
+     * @param customerId
+     * @param accountAddress
+     * @throws StoreException
+     */
     private void duplicateCustomerValidation(String customerId, String accountAddress) throws StoreException {
         Optional<Customer> duplicateCustomer = this.customers.stream()
                 .filter(aCustomer -> aCustomer.getCustomerId().equals(customerId)
@@ -265,14 +275,14 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new customer
      * @param customerId
      * @param firstName
      * @param lastName
      * @param type
      * @param emailAddress
      * @param accountAddress
-     * @return
+     * @return customer object
      * @throws StoreException
      */
     @Override
@@ -285,9 +295,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets customer by customer id
      * @param customerId
-     * @return
+     * @return customer object
      * @throws StoreException
      */
     @Override
@@ -301,14 +311,13 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Finds customer by customer id and updates his location which is store id and aisle number
      * @param customerId
      * @param storeId
      * @param aisleNumber
-     * @return
+     * @return inventory location object
      * @throws StoreException
      */
-
     @Override
     public InventoryLocation updateCustomerLocation(String customerId, String storeId, String aisleNumber) throws StoreException {
         InventoryLocation customerLocation = new InventoryLocation(storeId, aisleNumber, "");
@@ -318,9 +327,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets basket by customer id
      * @param customerId
-     * @return
+     * @return a basket object
      * @throws StoreException
      */
     @Override
@@ -335,7 +344,7 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Finds customer by customer id and creates a new basket for him with the provided basket id
      * @param customerId
      * @param basketId
      * @return
@@ -351,9 +360,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets a customer associated with a basket id
      * @param basketId
-     * @return
+     * @return customer object
      * @throws StoreException
      */
     private Customer getCustomerAssociatedWithABasket(String basketId) throws StoreException {
@@ -366,9 +375,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Finds a customer with the provided basket id
      * @param basketId
-     * @return
+     * @return customer object
      */
     private Customer findCustomerWithBasketId(String basketId) {
         for(int i = 0; i < customers.size(); i++){
@@ -381,9 +390,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets inventory associated with a product id
      * @param productId
-     * @return
+     * @return an inventory object
      * @throws StoreException
      */
     @Override
@@ -398,11 +407,12 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     * The method that gets called to add inventory to a shelf has logic if it is existing inventory and replaces it if it is
+     * The method that gets called to add inventory to a shelf has logic if it is existing inventory and replaces it
+     * if it is
      * @param basketId
      * @param productId
      * @param count
-     * @return
+     * @return a basket object
      * @throws StoreException
      */
     @Override
@@ -434,7 +444,7 @@ public class StoreModelService implements IStoreModelService {
      * @param basketId
      * @param productId
      * @param countReturned
-     * @return
+     * @return a basket object
      * @throws StoreException
      */
     @Override
@@ -460,9 +470,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Clears a customer's association with a basket and clears the items currently in basket
      * @param basketId
-     * @return
+     * @return a customer object
      * @throws StoreException
      */
     @Override
@@ -475,9 +485,9 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets products in a basket with their count based on basket id
      * @param basketId
-     * @return
+     * @return map of products with counts
      * @throws StoreException
      */
     @Override
@@ -488,13 +498,13 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new sensor object
      * @param sensorId
      * @param sensorName
      * @param sensorType
      * @param storeId
      * @param aisleNumber
-     * @return
+     * @return a sensor object
      * @throws StoreException
      */
     @Override
@@ -503,16 +513,16 @@ public class StoreModelService implements IStoreModelService {
         InventoryLocation location = new InventoryLocation(storeId, aisleNumber, "");
         ISensor sensor = SensorApplianceFactory.createSensor(sensorType, sensorId, sensorName, location);
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
-        aisle.addSensorToShelf(sensor);
+        aisle.addSensorToAisle(sensor);
         return sensor;
     }
 
     /**
-     *
+     * Gets a sensor by store id, aisle number and sensor id
      * @param storeId
      * @param aisleNumber
      * @param sensorId
-     * @return
+     * @return a sensor object
      * @throws StoreException
      */
     @Override
@@ -524,11 +534,11 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Gets an appliance object by store id, aisle number and appliance id
      * @param storeId
      * @param aisleNumber
      * @param applianceId
-     * @return
+     * @return an appliance object
      * @throws StoreException
      */
     @Override
@@ -540,29 +550,30 @@ public class StoreModelService implements IStoreModelService {
     }
 
     /**
-     *
+     * Creates a new sensor event
      * @param storeId
      * @param aisleNumber
      * @param sensorId
      * @param event
-     * @return
      * @throws StoreException
+     * @return sensor event
      */
     @Override
-    public String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
+    public Event createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
             throws StoreException {
         ISensor sensor = getSensorByLocationAndSensorId(storeId, aisleNumber, sensorId);
-        return sensor.generateSensorEvent(event);
+        notify(sensor, event);
+        return event;
     }
 
     /**
-     *
+     * Creates a new appliance object
      * @param applianceId
      * @param applianceName
      * @param applianceType
      * @param storeId
      * @param aisleNumber
-     * @return
+     * @return an appliance object
      * @throws StoreException
      */
     @Override
@@ -572,33 +583,34 @@ public class StoreModelService implements IStoreModelService {
         IAppliance appliance = SensorApplianceFactory.createAppliance(applianceType, applianceId,
                 applianceName, location);
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
-        aisle.addApplianceToShelf(appliance);
+        aisle.addApplianceToAisle(appliance);
         return appliance;
     }
 
     /**
-     *
+     * Creates a new appliance event
      * @param storeId
      * @param aisleNumber
      * @param applianceId
      * @param event
-     * @return
+     * @return an appliance event
      * @throws StoreException
      */
     @Override
-    public String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
+    public Event createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
         IAppliance appliance = aisle.getApplianceById(applianceId);
-        return appliance.generateApplianceEvent(event);
+        notify(appliance, event);
+        return event;
     }
 
     /**
-     *
+     * Creates a new appliance command
      * @param storeId
      * @param aisleNumber
      * @param applianceId
      * @param command
-     * @return
+     * @return an appliance command
      * @throws StoreException
      */
     @Override
@@ -608,5 +620,58 @@ public class StoreModelService implements IStoreModelService {
         return appliance.listenToCommand(command);
     }
 
+    /**
+     * Moves the robot by changing its location
+     * @param storeId
+     * @param aisleNumber
+     * @param sensorRobotId
+     * @param newAisleNumber
+     * @return
+     * @throws StoreException
+     */
+    @Override
+    public ISensor moveRobot(String storeId, String aisleNumber, String sensorRobotId, String newAisleNumber) throws StoreException {
+        Robot robot = (Robot) getSensorByLocationAndSensorId(storeId,aisleNumber, sensorRobotId);
+        InventoryLocation newRobotLocation = new InventoryLocation(storeId, newAisleNumber, "");
+        robot.setSensorLocation(newRobotLocation);
+        return robot;
+    }
 
+    /**
+     * Attaches an observer
+     * @param observer
+     */
+    @Override
+    public void register(IObserver observer) {
+        observers.add(observer);
+    }
+
+    /**
+     * Detaches an observer
+     * @param observer
+     */
+    @Override
+    public void deregister(IObserver observer) {
+        observers.remove(observer);
+    }
+
+    /**
+     * Notifies all of the observers with a sensor event
+     * @param event
+     * @param sensor
+     */
+    @Override
+    public void notify(ISensor sensor, Event event) {
+        observers.stream().forEach(observer -> observer.update(sensor, event));
+    }
+
+    /**
+     * Notifies all of the observers with an appliance event
+     * @param appliance
+     * @param event
+     */
+    @Override
+    public void notify(IAppliance appliance, Event event) {
+        observers.stream().forEach(observer -> observer.update(appliance, event));
+    }
 }

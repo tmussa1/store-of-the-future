@@ -3,6 +3,7 @@ package com.cscie97.store.model;
 import java.util.Map;
 
 /**
+ * This is the Store Model Service Interface which is the only class the outside world knows about
  * @author Tofik Mussa
  */
 public interface IStoreModelService {
@@ -55,12 +56,14 @@ public interface IStoreModelService {
 
     IAppliance getApplianceByLocationAndSensorId(String storeId, String aisleNumber, String applianceId) throws StoreException;
 
-    String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event) throws StoreException;
+    Event createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event) throws StoreException;
 
     IAppliance createAnAppliance(String applianceId, String applianceName, String applianceType, String storeId, String aisleNumber) throws StoreException;
 
-    String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException;
+    Event createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException;
 
     String createApplianceCommand(String storeId, String aisleNumber, String applianceId, Command command) throws StoreException;
+
+    ISensor moveRobot(String storeId, String aisleNumber, String sensorRobotId, String newAisleNumber) throws StoreException;
 }
 

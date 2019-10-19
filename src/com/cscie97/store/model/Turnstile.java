@@ -9,12 +9,28 @@ public class Turnstile implements IAppliance {
     private String applianceName;
     private InventoryLocation applianceLocation;
     private String applianceType;
+    private boolean isOpen;
 
+    /**
+     *
+     * @param applianceId
+     * @param applianceName
+     * @param applianceLocation
+     */
     public Turnstile(String applianceId, String applianceName, InventoryLocation applianceLocation) {
         this.applianceId = applianceId;
         this.applianceName = applianceName;
         this.applianceLocation = applianceLocation;
+        this.isOpen = false;
         this.applianceType = this.getClass().getName();
+    }
+
+    public void openTurnstile(){
+        this.isOpen = true;
+    }
+
+    public void closeTurnstile(){
+        this.isOpen = false;
     }
 
     @Override
@@ -37,15 +53,34 @@ public class Turnstile implements IAppliance {
         return applianceType;
     }
 
+    /**
+     * Generates appliance event
+     * @param event
+     * @return event
+     */
     @Override
     public String generateApplianceEvent(Event event) {
         return this.applianceName + " detected message " + event.getMessage();
     }
 
+    /**
+     * Listens to appliance command
+     * @param command
+     * @return command
+     */
     @Override
     public String listenToCommand(Command command) {
         return this.applianceName + " is doing " + command.getMessage();
     }
 
-
+    @Override
+    public String toString() {
+        return "Turnstile{" +
+                "applianceId='" + applianceId + '\'' +
+                ", applianceName='" + applianceName + '\'' +
+                ", applianceLocation=" + applianceLocation +
+                ", applianceType='" + applianceType + '\'' +
+                ", isOpen=" + isOpen +
+                '}';
+    }
 }

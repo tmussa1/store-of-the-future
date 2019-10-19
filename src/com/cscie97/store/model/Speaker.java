@@ -10,6 +10,12 @@ public class Speaker implements IAppliance {
     private InventoryLocation applianceLocation;
     private String applianceType;
 
+    /**
+     *
+     * @param applianceId
+     * @param applianceName
+     * @param applianceLocation
+     */
     public Speaker(String applianceId, String applianceName, InventoryLocation applianceLocation) {
         this.applianceId = applianceId;
         this.applianceName = applianceName;
@@ -37,15 +43,33 @@ public class Speaker implements IAppliance {
         return applianceType;
     }
 
+    /**
+     * Generates appliance event
+     * @param event
+     * @return event
+     */
     @Override
     public String generateApplianceEvent(Event event) {
         return this.applianceName + " detected message " + event.getMessage();
     }
 
+    /**
+     * Listens to appliance command
+     * @param command
+     * @return command
+     */
     @Override
     public String listenToCommand(Command command) {
         return this.applianceName + " is doing " + command.getMessage();
     }
 
-
+    @Override
+    public String toString() {
+        return "Speaker{" +
+                "applianceId='" + applianceId + '\'' +
+                ", applianceName='" + applianceName + '\'' +
+                ", applianceLocation=" + applianceLocation +
+                ", applianceType='" + applianceType + '\'' +
+                '}';
+    }
 }

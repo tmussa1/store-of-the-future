@@ -1,6 +1,7 @@
 package com.cscie97.store.model;
 
 /**
+ * A convenience class to identify the location of entities. It is used for more than just inventories
  * @author Tofik Mussa
  */
 public class InventoryLocation {
@@ -9,6 +10,12 @@ public class InventoryLocation {
     private String aisleNumber;
     private String shelfId;
 
+    /**
+     *
+     * @param storeId
+     * @param aisleNumber
+     * @param shelfId
+     */
     public InventoryLocation(String storeId, String aisleNumber, String shelfId) {
         this.storeId = storeId;
         this.aisleNumber = aisleNumber;
@@ -25,5 +32,14 @@ public class InventoryLocation {
 
     public String getShelfId() {
         return shelfId;
+    }
+
+    @Override
+    public String toString() {
+        return "InventoryLocation{" +
+                "storeId='" + storeId + '\'' +
+                ", aisleNumber='" + aisleNumber + '\'' +
+                ", shelfId='" + shelfId + '\'' +
+                '}';
     }
 }

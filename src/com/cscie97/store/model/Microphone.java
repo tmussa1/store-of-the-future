@@ -10,6 +10,12 @@ public class Microphone implements ISensor {
     private InventoryLocation location;
     private String type;
 
+    /**
+     *
+     * @param sensorId
+     * @param sensorName
+     * @param location
+     */
     public Microphone(String sensorId, String sensorName, InventoryLocation location) {
         this.sensorId = sensorId;
         this.sensorName = sensorName;
@@ -37,8 +43,23 @@ public class Microphone implements ISensor {
         return type;
     }
 
+    /**
+     * Generates sensor event
+     * @param event
+     * @return event
+     */
     @Override
     public String generateSensorEvent(Event event) {
         return this.sensorName + " detected message " + event.getMessage();
+    }
+
+    @Override
+    public String toString() {
+        return "Microphone{" +
+                "sensorId='" + sensorId + '\'' +
+                ", sensorName='" + sensorName + '\'' +
+                ", location=" + location +
+                ", type='" + type + '\'' +
+                '}';
     }
 }

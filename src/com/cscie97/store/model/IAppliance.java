@@ -1,6 +1,7 @@
 package com.cscie97.store.model;
 
 /**
+ * Appliances are turnstiles, speakers and robots
  * @author Tofik Mussa
  */
 public interface IAppliance {

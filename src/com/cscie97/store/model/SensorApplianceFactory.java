@@ -1,17 +1,18 @@
 package com.cscie97.store.model;
 
 /**
+ * A utility factory class to instantiate sensor and appliance concrete objects
  * @author Tofik Mussa
  */
 public class SensorApplianceFactory {
 
     /**
-     *
+     * Creates a sensor object
      * @param type
      * @param sensorId
      * @param sensorName
      * @param location
-     * @return
+     * @return a sensor object
      * @throws StoreException
      */
     public static ISensor createSensor(String type, String sensorId, String sensorName, InventoryLocation location)
@@ -27,12 +28,12 @@ public class SensorApplianceFactory {
     }
 
     /**
-     *
+     * Creates an appliance object
      * @param type
      * @param applianceId
      * @param applianceName
      * @param location
-     * @return
+     * @return an appliance object
      * @throws StoreException
      */
     public static IAppliance createAppliance(String type, String applianceId, String applianceName,

@@ -13,6 +13,12 @@ public class Store {
     private Address address;
     private List<Aisle> aisles;
 
+    /**
+     *
+     * @param storeId
+     * @param storeName
+     * @param address
+     */
     public Store(String storeId, String storeName, Address address) {
         this.storeId = storeId;
         this.storeName = storeName;
@@ -38,5 +44,15 @@ public class Store {
 
     public List<Aisle> getAisles() {
         return aisles;
+    }
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "storeId='" + storeId + '\'' +
+                ", storeName='" + storeName + '\'' +
+                ", address=" + address +
+                ", aisles=" + aisles +
+                '}';
     }
 }

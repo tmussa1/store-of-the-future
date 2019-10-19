@@ -15,6 +15,14 @@ public class Shelf {
     private Temperature temperature;
     private List<Inventory> inventoryList;
 
+    /**
+     *
+     * @param shelfId
+     * @param shelfName
+     * @param level
+     * @param shelfDescription
+     * @param temperature
+     */
     public Shelf(String shelfId, String shelfName, Level level, String shelfDescription, Temperature temperature) {
         this.shelfId = shelfId;
         this.shelfName = shelfName;
@@ -24,6 +32,11 @@ public class Shelf {
         this.inventoryList = new ArrayList<>();
     }
 
+    /**
+     * Adds inventory to the shelf
+     * @param inventory
+     * @throws StoreException
+     */
     public void addInventoryToShelf(Inventory inventory) throws StoreException {
         Inventory inventoryExisting = getInventoryInTheShelfByInventoryId(inventory.getInventoryId());
         if(inventoryExisting != null){
@@ -33,6 +46,12 @@ public class Shelf {
         }
     }
 
+    /**
+     * Gets inventory location by inventory id
+     * @param inventoryId
+     * @return
+     * @throws StoreException
+     */
     public Inventory getInventoryInTheShelfByInventoryId(String inventoryId) throws StoreException {
         Optional<Inventory> inventory = this.inventoryList.stream()
                 .filter(anInventory -> anInventory.getInventoryId().equals(inventoryId))
@@ -65,5 +84,17 @@ public class Shelf {
 
     public List<Inventory> getInventoryList() {
         return inventoryList;
+    }
+
+    @Override
+    public String toString() {
+        return "Shelf{" +
+                "shelfId='" + shelfId + '\'' +
+                ", shelfName='" + shelfName + '\'' +
+                ", level=" + level +
+                ", shelfDescription='" + shelfDescription + '\'' +
+                ", temperature=" + temperature +
+                ", inventoryList=" + inventoryList +
+                '}';
     }
 }

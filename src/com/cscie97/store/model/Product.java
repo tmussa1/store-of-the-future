@@ -1,7 +1,8 @@
 package com.cscie97.store.model;
 
 /**
- *
+ * Products across all of the stores
+ * @author Tofik Mussa
  */
 public class Product {
 
@@ -13,7 +14,18 @@ public class Product {
     private double volume;
     private Temperature temperature;
 
-    public Product(String productId, String productName, String productDescription, String category, int price, double volume, Temperature temperature) {
+    /**
+     *
+     * @param productId
+     * @param productName
+     * @param productDescription
+     * @param category
+     * @param price
+     * @param volume
+     * @param temperature
+     */
+    public Product(String productId, String productName, String productDescription, String category, int price,
+                   double volume, Temperature temperature) {
         this.productId = productId;
         this.productName = productName;
         this.productDescription = productDescription;

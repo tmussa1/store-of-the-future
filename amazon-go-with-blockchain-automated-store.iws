@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="" />
+    <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/ISubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Aisle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Aisle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IAppliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IAppliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/ISensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/ISensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/InventoryLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/InventoryLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/LocationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/LocationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Microphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Microphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/SensorApplianceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/SensorApplianceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Shelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Turnstile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Turnstile.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
-      <workItem from="1571472203976" duration="818000" />
+      <workItem from="1571472203976" duration="7861000" />
     </task>
     <servers />
   </component>

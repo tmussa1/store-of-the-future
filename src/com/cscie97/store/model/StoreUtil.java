@@ -1,16 +1,15 @@
 package com.cscie97.store.model;
 
-
-
 /**
  * @author Tofik Mussa
  */
 public class StoreUtil {
 
     /**
-     * We can assume that the aisles are by default in the floor unless specified
+     * Utility method to convert location to enum. We can assume that the aisles are by default in the floor
+     * unless specified
      * @param location
-     * @return
+     * @return The Location type enumeration
      */
     public static LocationType convertLocationToEnum(String location) {
         LocationType locationEnum = null;
@@ -28,9 +27,9 @@ public class StoreUtil {
     }
 
     /**
-     *
+     * Utility method to convert String to enumeration
      * @param level
-     * @return
+     * @return Level of shelf
      */
     public static Level convertLevelToEnum(String level){
         Level levelEnum = null;
@@ -51,11 +50,10 @@ public class StoreUtil {
     }
 
     /**
-     * Temperature is by default ambient
+     * Utility method to convert String to Temperature enum. Temperature is by default ambient
      * @param temperature
-     * @return
+     * @return Temperature enum
      */
-
     public static Temperature convertTemperatureToEnum(String temperature){
         Temperature temperatureEnum = null;
         switch(temperature.toUpperCase()){
@@ -81,9 +79,9 @@ public class StoreUtil {
     }
 
     /**
-     * Customer that is not registered is by default a guest
+     * Utility method to convert customer type to enum. Customer that is not registered is by default a guest
      * @param customerType
-     * @return
+     * @return Customer type enum
      */
     public static CustomerType convertCustomerTypeToEnum(String customerType){
         CustomerType customerEnum = null;

@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * A store consists of 1 to many aisles
+ * @author Tofik Mussa
+ */
 public class Aisle {
 
     private String aisleNumber;
@@ -13,6 +17,12 @@ public class Aisle {
     private List<ISensor> sensors;
     private List<IAppliance> appliances;
 
+    /**
+     *
+     * @param aisleNumber
+     * @param aisleDescription
+     * @param location
+     */
     public Aisle(String aisleNumber, String aisleDescription, LocationType location) {
         this.aisleNumber = aisleNumber;
         this.aisleDescription = aisleDescription;
@@ -22,24 +32,47 @@ public class Aisle {
         this.appliances = new ArrayList<>();
     }
 
+    /**
+     * Adds shelf to aisle
+     * @param shelf
+     */
     public void addShelfToAisle(Shelf shelf){
         this.shelves.add(shelf);
     }
 
-    public void addSensorToShelf(ISensor sensor){
+    /**
+     * Adds a sensor to aisle
+     * @param sensor
+     */
+    public void addSensorToAisle(ISensor sensor){
         this.sensors.add(sensor);
     }
 
-    public void addApplianceToShelf(IAppliance appliance){
+    /**
+     * Adds an appliance to aisle
+     * @param appliance
+     */
+    public void addApplianceToAisle(IAppliance appliance){
         this.appliances.add(appliance);
     }
 
+    /**
+     * Finds a sensor by sensor id
+     * @param sensorId
+     * @return
+     */
     public ISensor getSensorById(String sensorId){
         return this.sensors.stream()
                 .filter(sensor -> sensor.getSensorId().equals(sensorId))
                 .findAny().get();
     }
 
+    /**
+     * Finds an appliance by appliance id
+     * @param applianceId
+     * @return
+     * @throws StoreException
+     */
     public IAppliance getApplianceById(String applianceId) throws StoreException {
         Optional<IAppliance> appliance = this.appliances.stream()
                 .filter(applian -> applian.getApplianceId().equals(applianceId))
