@@ -9,6 +9,11 @@ public class LedgerException extends Exception {
     private String action;
     private String reason;
 
+    /**
+     *
+     * @param action
+     * @param reason
+     */
     public LedgerException(String action, String reason) {
         this.action = action;
         this.reason = reason;

@@ -56,11 +56,11 @@ public interface IStoreModelService {
 
     IAppliance getApplianceByLocationAndSensorId(String storeId, String aisleNumber, String applianceId) throws StoreException;
 
-    Event createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event) throws StoreException;
+    String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event) throws StoreException;
 
     IAppliance createAnAppliance(String applianceId, String applianceName, String applianceType, String storeId, String aisleNumber) throws StoreException;
 
-    Event createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException;
+    String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException;
 
     String createApplianceCommand(String storeId, String aisleNumber, String applianceId, Command command) throws StoreException;
 

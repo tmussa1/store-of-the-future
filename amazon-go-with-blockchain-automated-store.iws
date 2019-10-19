@@ -2,40 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/ISubject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Aisle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Aisle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/CustomerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IAppliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IAppliance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/ISensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/ISensor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/InventoryLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/InventoryLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/LocationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/LocationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Microphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Microphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/SensorApplianceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/SensorApplianceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Shelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Shelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Turnstile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Turnstile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CreateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CreateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/DetailsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/DetailsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/ExceptionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/ExceptionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/ShowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/ShowUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,6 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
-      <workItem from="1571472203976" duration="7861000" />
+      <workItem from="1571472203976" duration="9967000" />
     </task>
     <servers />
   </component>

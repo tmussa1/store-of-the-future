@@ -6,10 +6,14 @@ import com.cscie97.store.model.StoreModelService;
 
 import java.io.*;
 
+/**
+ * This class reads script from file and processes them
+ * @author Tofik Mussa
+ */
 public class CommandProcessor {
 
     /**
-     *
+     * Interprets commands from the scripts
      * @param storeModelService
      * @param command
      * @param lineNumber
@@ -215,27 +219,21 @@ public class CommandProcessor {
 
 
     /**
-     *
+     * Accepts a file and processes line by line
      * @param file
      * @throws CommandProcessorException
      */
     public void processCommandFile(String file) throws CommandProcessorException {
-
         try {
-
             File storeFile = new File(file);
             BufferedReader bufferedReader = new BufferedReader(new FileReader(storeFile));
-
             int lineNumber = 0;
-
             IStoreModelService storeModelService = StoreModelService.getInstance();
             String command;
-
             while((command = bufferedReader.readLine()) != null){
                 lineNumber++;
                 System.out.println(processCommand(storeModelService, command, lineNumber));
             }
-
         }  catch (IOException e) {
             throw new CommandProcessorException("Error reading", "Command can not be processed ", 1);
         }

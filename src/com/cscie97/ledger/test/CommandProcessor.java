@@ -10,10 +10,23 @@ import java.io.*;
  */
 public class CommandProcessor {
 
+    /**
+     * Processes each line of command
+     * @param ledger
+     * @param command
+     * @param lineNumber
+     */
     public void processCommand(Ledger ledger, String command, int lineNumber){
         System.out.println(interactWithLedger(ledger, command, lineNumber));
     }
 
+    /**
+     * Parses commands and interacts with ledger
+     * @param ledger
+     * @param command
+     * @param lineNumber
+     * @return an object or details about an object
+     */
     Object interactWithLedger(Ledger ledger, String command, int lineNumber){
         String [] commandWords = command.split(" ");
         switch(commandWords[0].toLowerCase()){
@@ -74,6 +87,12 @@ public class CommandProcessor {
         return validateBuffer.toString();
     }
 
+    /**
+     * Prints transaction information
+     * @param ledger
+     * @param transactionOrderIdentifier
+     * @return transaction information
+     */
     private String getTransactionInformation(Ledger ledger, String transactionOrderIdentifier) {
         StringBuffer transactionBuffer = new StringBuffer();
         transactionBuffer.append("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
@@ -117,6 +136,11 @@ public class CommandProcessor {
         return blockBuffer.toString();
     }
 
+    /**
+     * Prints balances for all accounts
+     * @param ledger
+     * @return print out of balances
+     */
     private String getAccountBalanceForAll(Ledger ledger) {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");

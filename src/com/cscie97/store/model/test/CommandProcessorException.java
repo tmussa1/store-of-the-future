@@ -9,6 +9,12 @@ public class CommandProcessorException extends Exception{
     private String reason;
     private int lineNumber;
 
+    /**
+     *
+     * @param command
+     * @param reason
+     * @param lineNumber
+     */
     public CommandProcessorException(String command, String reason, int lineNumber) {
         this.command = command;
         this.reason = reason;

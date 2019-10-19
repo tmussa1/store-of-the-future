@@ -550,7 +550,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     /**
-     * Creates a new sensor event
+     * Creates a new sensor event. Notifies observers about it
      * @param storeId
      * @param aisleNumber
      * @param sensorId
@@ -559,11 +559,11 @@ public class StoreModelService implements IStoreModelService, ISubject {
      * @return sensor event
      */
     @Override
-    public Event createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
+    public String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
             throws StoreException {
         ISensor sensor = getSensorByLocationAndSensorId(storeId, aisleNumber, sensorId);
         notify(sensor, event);
-        return event;
+        return sensor.generateSensorEvent(event);
     }
 
     /**
@@ -588,7 +588,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     /**
-     * Creates a new appliance event
+     * Creates a new appliance event. Notifies observers about it
      * @param storeId
      * @param aisleNumber
      * @param applianceId
@@ -597,11 +597,11 @@ public class StoreModelService implements IStoreModelService, ISubject {
      * @throws StoreException
      */
     @Override
-    public Event createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
+    public String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
         IAppliance appliance = aisle.getApplianceById(applianceId);
         notify(appliance, event);
-        return event;
+        return appliance.generateApplianceEvent(event);
     }
 
     /**
@@ -626,7 +626,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
      * @param aisleNumber
      * @param sensorRobotId
      * @param newAisleNumber
-     * @return
+     * @return a robot
      * @throws StoreException
      */
     @Override
