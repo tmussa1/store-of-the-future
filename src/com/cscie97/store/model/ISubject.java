@@ -7,8 +7,8 @@ import com.cscie97.store.controller.IObserver;
  * @author Tofik Mussa
  */
 public interface ISubject {
-    public void register(IObserver observer);
-    public void deregister(IObserver observer);
-    public void notify(ISensor sensor, Event event);
-    public void notify(IAppliance appliance, Event event);
+    void register(IObserver observer);
+    void deregister(IObserver observer);
+    void notify(ISensor sensor, Event event);
+    void notify(IAppliance appliance, Event event);
 }
