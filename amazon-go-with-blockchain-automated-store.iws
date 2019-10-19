@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/ledger/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/ledger/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/ledger/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/ledger/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/ledger/Ledger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/ledger/Ledger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/ledger/test/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/ledger/test/CommandProcessor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571350861259</updated>
-      <workItem from="1571350862654" duration="3247000" />
+      <workItem from="1571350862654" duration="5834000" />
+      <workItem from="1571472203976" duration="568000" />
     </task>
     <servers />
   </component>
@@ -60,7 +60,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -4,13 +4,11 @@ import com.cscie97.ledger.*;
 
 import java.io.*;
 
-/*
-    @author - Tofik Mussa
-    This class accepts commands and logs to the screen
+/**
+   * @author - Tofik Mussa
+   * This class accepts commands and logs to the screen
  */
-
 public class CommandProcessor {
-
 
     public void processCommand(Ledger ledger, String command, int lineNumber){
         System.out.println(interactWithLedger(ledger, command, lineNumber));
@@ -18,7 +16,6 @@ public class CommandProcessor {
 
     Object interactWithLedger(Ledger ledger, String command, int lineNumber){
         String [] commandWords = command.split(" ");
-
         switch(commandWords[0].toLowerCase()){
             case "create-ledger":
                 try {
@@ -61,10 +58,10 @@ public class CommandProcessor {
         }
         return null;
     }
-    /*
-    Prints results of validation
+    /**
+     * Prints results of validation
+     * @return results of validation
      */
-
     private String validateChain() {
 
         StringBuffer validateBuffer = new StringBuffer();
@@ -88,12 +85,14 @@ public class CommandProcessor {
         return transactionBuffer.toString();
     }
 
-    /*
-    Prints block information
+    /**
+     * Prints block information
+     * @param ledger
+     * @param blockNumber
+     * @return block information
      */
     private String getBlockInformation(Ledger ledger, String blockNumber) {
         Block block = ledger.getBlock(Integer.parseInt(blockNumber));
-
         StringBuffer blockBuffer = new StringBuffer();
         blockBuffer.append("=========================================================================================");
         blockBuffer.append(System.getProperty("line.separator"));
@@ -105,7 +104,6 @@ public class CommandProcessor {
             blockBuffer.append(System.getProperty("line.separator"));
             blockBuffer.append(currentTransaction.getTransactionId());
         }
-
         blockBuffer.append(System.getProperty("line.separator"));
         blockBuffer.append("It also contains accounts for the following ");
         blockBuffer.append(System.getProperty("line.separator"));
@@ -116,13 +114,10 @@ public class CommandProcessor {
         }
         blockBuffer.append(System.getProperty("line.separator"));
         blockBuffer.append("=========================================================================================");
-
         return blockBuffer.toString();
-
     }
 
     private String getAccountBalanceForAll(Ledger ledger) {
-
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
         stringBuffer.append(System.getProperty("line.separator"));
@@ -136,8 +131,17 @@ public class CommandProcessor {
         return stringBuffer.toString();
     }
 
-    /*
-    Processes transactions and prints results
+    /**
+     * Processes transactions and prints results
+     * @param ledger
+     * @param receiver
+     * @param payer
+     * @param fee
+     * @param amount
+     * @param payload
+     * @param transactionId
+     * @return a print out of transaction details
+     * @throws LedgerException
      */
     private String processTransaction(Ledger ledger, String transactionId, int amount, int fee,
                                       String payload, String payer, String receiver) throws LedgerException {
@@ -149,7 +153,6 @@ public class CommandProcessor {
                 fee, payload, payerAcct, receiverAcct);
 
         ledger.processTransaction(transaction);
-
         StringBuffer transactionBuffer = new StringBuffer();
         transactionBuffer.append("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
         transactionBuffer.append(transactionBuffer.append(System.getProperty("line.separator")));
@@ -160,8 +163,11 @@ public class CommandProcessor {
         return transactionBuffer.toString();
     }
 
-    /*
-    Prints account balance for a signle account holder
+    /**
+     * Prints account balance for a single account holder
+     * @param ledger
+     * @param address
+     * @return a print out of account details
      */
     private String getAccountBalance(Ledger ledger, String address) {
         StringBuffer accountBuffer = new StringBuffer();
@@ -173,15 +179,24 @@ public class CommandProcessor {
         return accountBuffer.toString();
     }
 
-    /*
-    Initializes ledger
+    /**
+     * Initializes ledger
+     * @param name
+     * @param description
+     * @param seed
+     * @return a ledger
+     * @throws LedgerException
      */
     private Ledger createLedger(String name, String description, String seed) throws LedgerException {
         return new Ledger(name, description, seed);
     }
 
-    /*
-    Creates new account and outputs results
+    /**
+     * Creates new account and outputs results
+     * @param address
+     * @param ledger
+     * @return a print out of account creation confirmation
+     * @throws LedgerException
      */
     private String createAccount(Ledger ledger, String address) throws LedgerException {
         Account account = ledger.createAccount(address);
@@ -196,35 +211,26 @@ public class CommandProcessor {
 
         return accountBuffer.toString();
     }
-    /*
-    Reads from file and performs action for each line
+
+    /**
+     * Reads from file and performs action for each line. Line number will be one if it fails to read.This is an add on
+     * for the bootstrap mechanism of initializing a ledger and creating a ledger object. It will be part of the results
+     * document
+     * @param file
+     * @throws LedgerException
      */
-
     public void processCommandFile(String file) throws CommandProcessorException {
-
         try{
             File ledgerFile = new File(file);
             BufferedReader bufferedReader = new BufferedReader(new FileReader(ledgerFile));
-
             int lineNumber = 1;
-
-            /*
-            This is an add on for the bootstrap mechanism of initializing a ledger and
-            creating a ledger object. It will be part of the results document
-             */
             Ledger initializeLedger = (Ledger) interactWithLedger(null, bufferedReader.readLine(), lineNumber);
-
             String command;
-
             while((command = bufferedReader.readLine()) != null ){
                 processCommand(initializeLedger, command, lineNumber);
                 lineNumber++;
             }
-
         } catch (IOException e) {
-            /*
-            Line number will be one if it fails to read
-             */
             throw new CommandProcessorException("Error reading", "Command can not be processed ", 1);
         }
     }
