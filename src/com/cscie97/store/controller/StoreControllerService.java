@@ -1,9 +1,6 @@
 package com.cscie97.store.controller;
 
-import com.cscie97.store.model.Event;
-import com.cscie97.store.model.IAppliance;
-import com.cscie97.store.model.IObserver;
-import com.cscie97.store.model.ISensor;
+import com.cscie97.store.model.*;
 
 import java.util.ArrayDeque;
 import java.util.Collection;
@@ -14,11 +11,14 @@ import java.util.logging.Logger;
 public class StoreControllerService implements IObserver {
 
     Collection<AbstractCommand> commands;
+    StoreModelService storeModelService;
 
     Logger logger = Logger.getLogger(StoreControllerService.class.getName());
 
     public StoreControllerService() {
         this.commands = new ArrayDeque<AbstractCommand>();
+        this.storeModelService = StoreModelService.getInstance();
+        this.storeModelService.register(this);
     }
 
     @Override

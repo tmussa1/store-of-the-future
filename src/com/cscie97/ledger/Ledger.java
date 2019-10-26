@@ -142,6 +142,15 @@ public class Ledger {
     }
 
     /**
+     * Finds account by address in the current block
+     * @param address
+     * @return - an account
+     */
+    public Account getAccountByAddress(String address){
+        return  blockMap.get(blockMap.size()).getAccountBalanceMap().get(address);
+    }
+
+    /**
      * Helper method to check if receiver is linked to a valid account in the last completed block
      * @param transaction
      * @param currentBlock

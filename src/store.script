@@ -65,6 +65,23 @@ define-customer cust_E2 first_name SILVER last_name HAWK type guest email_addres
 define-customer cust_23 first_name MEGON last_name FOX type guest email_address megonfox@testmail.com account megon
 define-customer cust_24 first_name MARIA last_name WILIAMSON type registered email_address maria4567@ymail.com account maria
 define-customer cust_S2 first_name SALINA last_name GOMEZ type registered email_address salina@gmail.com account salina
+create-ledger iceland description 'iceland ledger' seed 'vik'
+create-account store_123
+create-account cust_AB
+create-account cust_21
+create-account cust_22
+create-account cust_E2
+create-account cust_23
+create-account cust_24
+create-account cust_S2
+process-transaction 1 amount 10000 fee 10 payload 'pay store_123' payer master receiver store_123
+process-transaction 2 amount 10000 fee 10 payload 'pay cust_21' payer master receiver cust_21
+process-transaction 3 amount 10000 fee 10 payload 'pay cust_22' payer master receiver cust_22
+process-transaction 4 amount 10000 fee 10 payload 'pay cust_23' payer master receiver cust_23
+process-transaction 5 amount 10000 fee 10 payload 'pay cust_AB' payer master receiver cust_AB
+process-transaction 6 amount 10000 fee 10 payload 'pay cust_E2' payer master receiver cust_E2
+process-transaction 7 amount 10000 fee 10 payload 'pay cust_S2' payer master receiver cust_S2
+process-transaction 8 amount 10000 fee 10 payload 'pay cust_24' payer master receiver cust_24
 update-customer cust_S2 location store_123:aisle_B2
 update-customer cust_21 location store_123:aisle_A2
 update-customer cust_22 location store_123:aisle_A1
@@ -85,7 +102,6 @@ add-basket-item b3 product prod11 item_count 2
 add-basket-item b3 product prod12 item_count 7
 remove-basket-item b1 product prod10 item_count 1
 remove-basket-item b3 product prod12 item_count 5
-clear-basket b3
 show-basket-items b1
 define-sensor mic_A1 name MicrophoneA1 type microphone location store_123:aisle_A2
 define-sensor cam_A1 name CameraA1 type camera location store_123:aisle_A2
