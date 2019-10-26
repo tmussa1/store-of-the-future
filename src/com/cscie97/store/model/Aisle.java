@@ -99,6 +99,14 @@ public class Aisle {
         return shelves;
     }
 
+    public List<ISensor> getSensors() {
+        return sensors;
+    }
+
+    public List<IAppliance> getAppliances() {
+        return appliances;
+    }
+
     @Override
     public String toString() {
         return "Aisle{" +

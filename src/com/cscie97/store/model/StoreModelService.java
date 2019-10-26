@@ -1,7 +1,5 @@
 package com.cscie97.store.model;
 
-import com.cscie97.store.controller.IObserver;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -635,6 +633,43 @@ public class StoreModelService implements IStoreModelService, ISubject {
         InventoryLocation newRobotLocation = new InventoryLocation(storeId, newAisleNumber, "");
         robot.setSensorLocation(newRobotLocation);
         return robot;
+    }
+
+    @Override
+    public List<Turnstile> getAllTurnstilesWithinAnAisle(String storeId, String aisleNumber) throws StoreException {
+        Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
+        List<Turnstile> turnstiles = aisle.getAppliances().stream()
+                .filter(anAppliance -> anAppliance instanceof Turnstile)
+                .map(anAppliance -> (Turnstile) anAppliance)
+                .collect(Collectors.toList());
+        return turnstiles;
+    }
+
+    @Override
+    public List<Turnstile> openTurnstiles(List<Turnstile> turnstiles) {
+         return turnstiles.stream()
+                 .map(aTurnstile -> aTurnstile.openTurnstile())
+                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Speaker> getAllSpeakersWithinAnAisle(String storeId, String aisleNumber) throws StoreException {
+        Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
+        List<Speaker> speakers = aisle.getAppliances().stream()
+                .filter(anAppliance -> anAppliance instanceof Speaker)
+                .map(anAppliance -> (Speaker) anAppliance)
+                .collect(Collectors.toList());
+        return speakers;
+    }
+
+    @Override
+    public List<Robot> getAllRobotsWithinAnAisle(String storeId, String aisleNumber) throws StoreException {
+        Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
+        List<Robot> robots = aisle.getAppliances().stream()
+                .filter(anAppliance -> anAppliance instanceof Robot)
+                .map(anAppliance -> (Robot) anAppliance)
+                .collect(Collectors.toList());
+        return robots;
     }
 
     /**

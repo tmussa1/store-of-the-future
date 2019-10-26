@@ -1,7 +1,5 @@
 package com.cscie97.store.model;
 
-import com.cscie97.store.controller.IObserver;
-
 /**
  * A subject interface, an observable
  * @author Tofik Mussa

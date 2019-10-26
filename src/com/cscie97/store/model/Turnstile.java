@@ -25,12 +25,14 @@ public class Turnstile implements IAppliance {
         this.applianceType = this.getClass().getName();
     }
 
-    public void openTurnstile(){
+    public Turnstile openTurnstile(){
         this.isOpen = true;
+        return this;
     }
 
-    public void closeTurnstile(){
+    public Turnstile closeTurnstile(){
         this.isOpen = false;
+        return this;
     }
 
     @Override

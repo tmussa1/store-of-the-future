@@ -1,5 +1,6 @@
 package com.cscie97.store.model;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -65,5 +66,13 @@ public interface IStoreModelService {
     String createApplianceCommand(String storeId, String aisleNumber, String applianceId, Command command) throws StoreException;
 
     ISensor moveRobot(String storeId, String aisleNumber, String sensorRobotId, String newAisleNumber) throws StoreException;
+
+    List<Turnstile> getAllTurnstilesWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
+
+    List<Turnstile> openTurnstiles(List<Turnstile> turnstiles);
+
+    List<Speaker> getAllSpeakersWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
+
+    List<Robot> getAllRobotsWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
 }
 
