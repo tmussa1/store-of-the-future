@@ -176,10 +176,10 @@ removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
 removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
 removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
 removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-customer cust_24 adds prod10 to store_123:aisle_B2:shelf_q2
-customer cust_22 adds prod12 to store_123:aisle_B2:shelf_q1
+adds prod10 customer cust_24 to store_123:aisle_B2:shelf_q2
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1
 invoke-commands
-customer cust_23 adds prod11 to store_123:aisle_B2:shelf_q1
+adds prod11 customer cust_23 to store_123:aisle_B2:shelf_q1
 removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
 removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1
 removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
@@ -189,8 +189,8 @@ invoke-commands
 removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
 removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
 removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1
-customer cust_S2 adds prod12 to store_123:aisle_B2:shelf_q1
-customer cust_22 adds prod12 to store_123:aisle_B2:shelf_q1
+adds prod12 customer cust_S2 to store_123:aisle_B2:shelf_q1
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1
 emergency earthquake in store_123:aisle_A1
 emergency armed_intruder in store_123:aisle_B2
 dropped prod11 on store_123:aisle_A1:shelf_q2
@@ -233,10 +233,10 @@ customer cust_24 wants 9 of prod11
 invoke-commands
 customer cust_24 seen_at store_123:aisle_B3
 customer cust_E2 seen_at store_123:aisle_B1
-customer cust_AB asks basket_value
-customer cust_S2 asks basket_value
-customer cust_21 asks basket_value
-customer cust_23 asks basket_value
+basket_value wanted customer cust_AB
+basket_value wanted customer cust_S2
+basket_value wanted customer cust_21
+basket_value wanted customer cust_23
 customer cust_23 seen_at store_123:aisle_B3
 customer cust_AB seen_at store_123:aisle_A2
 customer cust_S2 wants 2 of prod10
@@ -251,10 +251,10 @@ customer cust_E2 wants 4 of prod11
 customer cust_23 wants 12 of prod12
 customer cust_21 wants 16 of prod11
 customer cust_22 wants 7 of prod10
-customer cust_22 asks basket_value
-customer cust_24 asks basket_value
+basket_value wanted customer cust_22
+basket_value wanted customer cust_24
 invoke-commands
-customer cust_E2 asks basket_value
+basket_value wanted customer cust_E2
 weight_assistance wanted customer cust_E2
 weight_assistance wanted customer cust_S2
 approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2

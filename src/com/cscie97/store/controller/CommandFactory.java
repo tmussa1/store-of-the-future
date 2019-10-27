@@ -14,8 +14,8 @@ public class CommandFactory {
         String [] commandWords = event.getMessage().split(" ");
         switch(commandWords[0]){
             case "create-controller":
-              logger.info(createController(commandWords[1]).getControllerName() + " has been created");
-              break;
+                logger.info(createController(commandWords[1]).getControllerName() + " has been created");
+                break;
             case "register-controller":
                 storeControllerService.interestedToListen();
                 logger.info("SCS expressed interest to listen to SMS events");
@@ -57,6 +57,26 @@ public class CommandFactory {
                 storeControllerService.addCommands(weightAssistanceCommand);
                 logger.info("Weight assistance command added to queue. We will get back to you");
                 return weightAssistanceCommand;
+            case "basket_value":
+                AbstractCommand checkBalanceCommand = new CheckAccountBalanceCommand(commandWords[3]);
+                storeControllerService.addCommands(checkBalanceCommand);
+                logger.info("Check account balance query added to queue. We will get back to you");
+                return checkBalanceCommand;
+            case "adds":
+                String [] storeAisleShelf2 = commandWords[5].split(":");
+                AbstractCommand productAddedToShelf = new ProductRemovedFromBasketCommand(commandWords[1],
+                        commandWords[3], storeAisleShelf2[0], storeAisleShelf2[1], storeAisleShelf2[2]);
+                storeControllerService.addCommands(productAddedToShelf);
+                logger.info("Product added back to shelf command added to queue. We will get back to you");
+                return productAddedToShelf;
+            case "dropped":
+                String [] storeAisleShelf3 = commandWords[3].split(":");
+                String mess = commandWords[0] + "_" + commandWords[1];
+                AbstractCommand droppedCommand = new CleanStoreCommand(mess,
+                        storeAisleShelf3[0], storeAisleShelf3[1], storeAisleShelf3[2]);
+                storeControllerService.addCommands(droppedCommand);
+                logger.info("Product dropped to floor command added to queue. We will get back to you");
+                return droppedCommand;
         }
         return null;
     }
