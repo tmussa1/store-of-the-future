@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CreateAccountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CreateLedgerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/ProcessTransactionCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/AbstractCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/AbstractCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/AssistCustomerCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/AssistCustomerCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CheckAccountBalanceCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CheckoutCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CleanStoreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CleanStoreCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CommandFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerEnteredCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerEnteredCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerNeedsItemCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerNeedsItemCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerSeenCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CustomerSeenCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/EmergencyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/EmergencyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/FIndCustomerCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/ProductAddedToBasketCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/ProductRemovedFromBasketCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/ProductRemovedFromBasketCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/StoreControllerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/StoreControllerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/StoreControllerServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/StoreControllerServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/IObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/IObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/IStoreModelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/IStoreModelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/StoreModelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CommandProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CommandProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CreateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CreateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/store.script" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/store.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/AbstractCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CommandProcessor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +71,8 @@
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
       <workItem from="1571472203976" duration="12502000" />
-      <workItem from="1572057157248" duration="46136000" />
+      <workItem from="1572057157248" duration="47576000" />
+      <workItem from="1572206412273" duration="433000" />
     </task>
     <servers />
   </component>

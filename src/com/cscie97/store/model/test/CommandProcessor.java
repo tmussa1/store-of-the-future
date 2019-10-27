@@ -230,6 +230,9 @@ public class CommandProcessor {
             case "find_customer":
             case "wants":
             case "seen_at":
+            case "create-ledger":
+            case "create-account":
+            case "process-transaction":
                 Event event = new Event(command);
                 return CreateUtil.createEventSCSListensTo(storeModelService, event);
             default:
