@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CommandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/ISubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/ISubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.script" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.script" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +55,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cscie97.store.model.test.TestDriver" />
+      <module name="amazon-go-with-blockchain-automated-store" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,7 +76,7 @@
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
       <workItem from="1571472203976" duration="12502000" />
-      <workItem from="1572057157248" duration="27169000" />
+      <workItem from="1572057157248" duration="31600000" />
     </task>
     <servers />
   </component>

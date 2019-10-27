@@ -12,25 +12,30 @@ public class StoreControllerService implements IObserver {
 
     Collection<AbstractCommand> commands;
     StoreModelService storeModelService;
+    private String controllerName;
 
     Logger logger = Logger.getLogger(StoreControllerService.class.getName());
 
-    public StoreControllerService() {
+    public StoreControllerService(String controllerName) {
+        this.controllerName = controllerName;
         this.commands = new ArrayDeque<AbstractCommand>();
         this.storeModelService = StoreModelService.getInstance();
+        interestedToListen();
+    }
+
+    @Override
+    public void update(Event event) {
+        AbstractCommand command = CommandFactory.createCommand(event);
+        commands.add(command);
+    }
+
+    public void interestedToListen(){
         this.storeModelService.register(this);
     }
 
-    @Override
-    public void update(ISensor sensor, Event event) {
-        AbstractCommand command = CommandFactory.createCommand(event, sensor);
+    public ICommand addCommands(AbstractCommand command){
         commands.add(command);
-    }
-
-    @Override
-    public void update(IAppliance appliance, Event event) {
-        AbstractCommand command = CommandFactory.createCommand(event, appliance);
-        commands.add(command);
+        return command;
     }
 
     public void invokeCommands(){
@@ -41,5 +46,9 @@ public class StoreControllerService implements IObserver {
         } catch (InterruptedException e) {
             logger.warning("Error invoking commands");
         }
+    }
+
+    public String getControllerName() {
+        return controllerName;
     }
 }

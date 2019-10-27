@@ -7,6 +7,5 @@ package com.cscie97.store.model;
 public interface ISubject {
     void register(IObserver observer);
     void deregister(IObserver observer);
-    void notify(ISensor sensor, Event event);
-    void notify(IAppliance appliance, Event event);
+    void notify(Event event);
 }

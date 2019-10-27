@@ -577,7 +577,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     public String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
             throws StoreException {
         ISensor sensor = getSensorByLocationAndSensorId(storeId, aisleNumber, sensorId);
-        notify(sensor, event);
+        notify(event);
         return sensor.generateSensorEvent(event);
     }
 
@@ -615,7 +615,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     public String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
         IAppliance appliance = aisle.getApplianceById(applianceId);
-        notify(appliance, event);
+        notify(event);
         return appliance.generateApplianceEvent(event);
     }
 
@@ -707,24 +707,14 @@ public class StoreModelService implements IStoreModelService, ISubject {
         observers.remove(observer);
     }
 
-    /**
-     * Notifies all of the observers with a sensor event
-     * @param event
-     * @param sensor
-     */
-    @Override
-    public void notify(ISensor sensor, Event event) {
-        observers.stream().forEach(observer -> observer.update(sensor, event));
-    }
 
     /**
-     * Notifies all of the observers with an appliance event
-     * @param appliance
+     * Notifies all of the observers with an event
      * @param event
      */
     @Override
-    public void notify(IAppliance appliance, Event event) {
-        observers.stream().forEach(observer -> observer.update(appliance, event));
+    public void notify(Event event) {
+        observers.stream().forEach(observer -> observer.update(event));
     }
 
     /**

@@ -129,66 +129,66 @@ create-appliance-event turn_a1 event COUNT_INVENTORY location store_123:aisle_A2
 create-appliance-command rob_1 message STOCK_SHELL location store_123:aisle_A1
 create-appliance-command rob_2 message CLEAN_FLOOR location store_123:aisle_A2
 create-appliance-command turn_a3 message COUNT_INVENTORY location store_123:aisle_A2
-entering customer cust_24 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_21 store_123:aisle_A2 turnstile turn_a1
+customer cust_24 entering store_123 turnstile turn_a1
+customer cust_21 entering store_123 turnstile turn_a1
 emergency fire in store_123:aisle_A1
 emergency flood in store_123:aisle_B2
-entering customer cust_S2 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_AB store_123:aisle_A2 turnstile turn_a1
-entering customer cust_24 store_123:aisle_A2 turnstile turn_a1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
+customer cust_S2 entering store_123 turnstile turn_a1
+customer cust_AB entering store_123 turnstile turn_a1
+customer cust_24 entering store_123 turnstile turn_a1
+customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 invoke-commands
 emergency earthquake in store_123:aisle_B3
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-entering customer cust_22 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_E2 store_123:aisle_A2 turnstile turn_a1
-removes prod11 customer cust_23 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
+customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_22 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_22 entering store_123 turnstile turn_a1
+customer cust_E2 entering store_123 turnstile turn_a1
+customer cust_23 removes prod11 from store_123:aisle_B2:shelf_q1
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
+customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
 invoke-commands
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
+customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
 broken_glass in store_123:aisle_B3
 invoke-commands
 broken_glass in store_123:aisle_A2
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_S2 removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_22 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_24 removes prod10 from store_123:aisle_A1:shelf_q1
 invoke-commands
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
+customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 emergency armed_intruder in store_123:aisle_A2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod12 customer cust_AB from store_123:aisle_B2:shelf_q1
+customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_22 removes prod11 from store_123:aisle_B2:shelf_q1
+customer cust_AB removes prod12 from store_123:aisle_B2:shelf_q1
 invoke-commands
-removes prod11 customer cust_23 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
+customer cust_23 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 dropped prod12 on store_123:aisle_B2:shelf_q1
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
+customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_24 adds prod10 to store_123:aisle_B2:shelf_q2
 customer cust_22 adds prod12 to store_123:aisle_B2:shelf_q1
 invoke-commands
 customer cust_23 adds prod11 to store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_S2 removes prod10 from store_123:aisle_A1:shelf_q1
+customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
 dropped prod12 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_B2:shelf_q2
 invoke-commands
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1
+customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_22 removes prod11 from store_123:aisle_B2:shelf_q1
 customer cust_S2 adds prod12 to store_123:aisle_B2:shelf_q1
 customer cust_22 adds prod12 to store_123:aisle_B2:shelf_q1
 emergency earthquake in store_123:aisle_A1
@@ -199,13 +199,13 @@ broken_glass in store_123:aisle_A1
 broken_glass in store_123:aisle_B2
 dropped prod11 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_A1:shelf_q1
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1
+customer cust_22 removes prod12 from store_123:aisle_B2:shelf_q1
+customer cust_24 removes prod10 from store_123:aisle_A1:shelf_q1
 find_customer MEGON
 find_customer SILVER
 find_customer MARY
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
+customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
+customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_B2:shelf_q2
 invoke-commands
 dropped prod11 on store_123:aisle_B2:shelf_q1
@@ -223,8 +223,8 @@ find_customer JSON
 invoke-commands
 customer cust_S2 seen_at store_123:aisle_B1
 customer cust_22 seen_at store_123:aisle_A2
-weight_assistance wanted customer cust_24
-weight_assistance wanted customer cust_21
+customer cust_24 wants weight_assistance
+customer cust_21 wants weight_assistance
 customer cust_21 seen_at store_123:aisle_B2
 customer cust_E2 wants 7 of prod12
 customer cust_23 wants 9 of prod11
@@ -241,10 +241,10 @@ customer cust_23 seen_at store_123:aisle_B3
 customer cust_AB seen_at store_123:aisle_A2
 customer cust_S2 wants 2 of prod10
 customer cust_24 wants 3 of prod11
-weight_assistance wanted customer cust_22
-weight_assistance wanted customer cust_23
+customer cust_22 wants weight_assistance
+customer cust_23 wants weight_assistance
 invoke-commands
-weight_assistance wanted customer cust_AB
+customer cust_AB wants weight_assistance
 customer cust_AB wants 4 of prod12
 customer cust_AB wants 5 of prod10
 customer cust_E2 wants 4 of prod11
@@ -255,13 +255,13 @@ customer cust_22 asks basket_value
 customer cust_24 asks basket_value
 invoke-commands
 customer cust_E2 asks basket_value
-weight_assistance wanted customer cust_E2
-weight_assistance wanted customer cust_S2
-approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2
-approached_turnstile turn_a1 customer cust_E2 location store_123:aisle_A2
-approached_turnstile turn_a1 customer cust_21 location store_123:aisle_A2
+customer cust_E2 wants weight_assistance
+customer cust_S2 wants weight_assistance
+customer cust_22 approached_turnstile turn_a3 location store_123:aisle_A2
+customer cust_E2 approached_turnstile turn_a1 location store_123:aisle_A2
+customer cust_21 approached_turnstile turn_a1 location store_123:aisle_A2
 invoke-commands
-approached_turnstile turn_a3 customer cust_24 location store_123:aisle_A2
-approached_turnstile turn_a2 customer cust_23 location store_123:aisle_A2
-approached_turnstile turn_a3 customer cust_AB location store_123:aisle_A2
+customer cust_24 approached_turnstile turn_a3 location store_123:aisle_A2
+customer cust_23 approached_turnstile turn_a2 location store_123:aisle_A2
+customer cust_AB approached_turnstile turn_a3 location store_123:aisle_A2
 invoke-commands
