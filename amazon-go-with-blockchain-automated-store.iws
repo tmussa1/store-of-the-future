@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CleanStoreCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/ProductAddedToBasketCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/ProductRemovedFromBasketCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerNeedsItemCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerNeedsItemCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/ICommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/MissingPersonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/FIndCustomerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/AbstractCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
       <workItem from="1571472203976" duration="12502000" />
-      <workItem from="1572057157248" duration="24964000" />
+      <workItem from="1572057157248" duration="26492000" />
     </task>
     <servers />
   </component>

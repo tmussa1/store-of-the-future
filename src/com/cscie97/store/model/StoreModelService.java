@@ -15,6 +15,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     private Map<String, Product> productMap;
     private List<IObserver> observers;
     private static StoreModelService instance;
+    private String authKey;
 
     private StoreModelService() {
         this.customers = new ArrayList<>();
@@ -724,5 +725,14 @@ public class StoreModelService implements IStoreModelService, ISubject {
     @Override
     public void notify(IAppliance appliance, Event event) {
         observers.stream().forEach(observer -> observer.update(appliance, event));
+    }
+
+    /**
+     * To be used later
+     * @param authKey
+     */
+    @Override
+    public void setAuthKey(String authKey) {
+        this.authKey = authKey;
     }
 }

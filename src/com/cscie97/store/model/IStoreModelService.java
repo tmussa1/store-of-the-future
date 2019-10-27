@@ -76,5 +76,7 @@ public interface IStoreModelService {
     List<Robot> getAllRobotsWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
 
     Customer getCustomerByCustomerName(String customerName) throws StoreException;
+
+    void setAuthKey(String authKey);
 }
 

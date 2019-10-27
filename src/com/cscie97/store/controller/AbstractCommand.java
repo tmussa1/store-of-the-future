@@ -12,11 +12,14 @@ public abstract class AbstractCommand implements Callable<Event>, ICommand{
 
     IStoreModelService storeModelService;
     Ledger ledger;
+    private String authKey;
 
     public AbstractCommand(String ledgerName, String ledgerDescription, String ledgerSeed)
             throws LedgerException {
         this.ledger = new Ledger(ledgerName, ledgerDescription, ledgerSeed);
         this.storeModelService = StoreModelService.getInstance();
+        setAuthKey("opaque-string");
+        this.storeModelService.setAuthKey(getAuthKey());
     }
 
     public AbstractCommand() {
@@ -26,5 +29,13 @@ public abstract class AbstractCommand implements Callable<Event>, ICommand{
     @Override
     public Event call() throws Exception {
         return this.execute();
+    }
+
+    public String getAuthKey() {
+        return authKey;
+    }
+
+    public void setAuthKey(String authKey) {
+        this.authKey = authKey;
     }
 }
