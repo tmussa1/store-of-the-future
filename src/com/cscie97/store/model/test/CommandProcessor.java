@@ -1,10 +1,14 @@
 package com.cscie97.store.model.test;
 
+import com.cscie97.store.model.Event;
 import com.cscie97.store.model.IStoreModelService;
 import com.cscie97.store.model.StoreException;
 import com.cscie97.store.model.StoreModelService;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 /**
  * This class reads script from file and processes them
@@ -211,6 +215,23 @@ public class CommandProcessor {
                 } catch (StoreException e) {
                     return ExceptionUtil.outputException(lineNumber, "Appliance command not sent", e);
                 }
+            case "create-controller":
+            case "register-controller":
+            case "invoke-commands":
+            case "entering":
+            case "emergency":
+            case "removes":
+            case "approached_turnstile":
+            case "weight_assistance":
+            case "basket_value":
+            case "adds":
+            case "dropped":
+            case "broken_glass":
+            case "find_customer":
+            case "wants":
+            case "seen_at":
+                Event event = new Event(command);
+                return CreateUtil.createEventSCSListensTo(storeModelService, event);
             default:
                 return DetailsUtil.beginOfScript();
         }

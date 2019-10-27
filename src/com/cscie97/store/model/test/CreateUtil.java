@@ -226,6 +226,11 @@ public class CreateUtil {
         return DetailsUtil.outputConfirmation(applianceCommand);
     }
 
+    public static String createEventSCSListensTo(IStoreModelService storeModelService, Event event){
+        Event anEvent = storeModelService.createAnEvent(event);
+        return DetailsUtil.outputConfirmation(anEvent.getMessage());
+    }
+
     /**
      * Utility methos to convert String to int
      * @param str

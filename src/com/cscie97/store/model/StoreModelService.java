@@ -565,7 +565,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     /**
-     * Creates a new sensor event. Notifies observers about it
+     * Creates a new sensor event. Store controller service is not listening to this
      * @param storeId
      * @param aisleNumber
      * @param sensorId
@@ -577,7 +577,6 @@ public class StoreModelService implements IStoreModelService, ISubject {
     public String createSensorEvent(String storeId, String aisleNumber, String sensorId, Event event)
             throws StoreException {
         ISensor sensor = getSensorByLocationAndSensorId(storeId, aisleNumber, sensorId);
-        notify(event);
         return sensor.generateSensorEvent(event);
     }
 
@@ -603,7 +602,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     /**
-     * Creates a new appliance event. Notifies observers about it
+     * Creates a new appliance event. Store controller service is not listening to this
      * @param storeId
      * @param aisleNumber
      * @param applianceId
@@ -615,7 +614,6 @@ public class StoreModelService implements IStoreModelService, ISubject {
     public String createApplianceEvent(String storeId, String aisleNumber, String applianceId, Event event) throws StoreException {
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
         IAppliance appliance = aisle.getApplianceById(applianceId);
-        notify(event);
         return appliance.generateApplianceEvent(event);
     }
 
@@ -687,6 +685,17 @@ public class StoreModelService implements IStoreModelService, ISubject {
                 .map(anAppliance -> (Robot) anAppliance)
                 .collect(Collectors.toList());
         return robots;
+    }
+
+    /**
+     * This are the events that the store controller service is interested in
+     * @param event
+     * @return
+     */
+    @Override
+    public Event createAnEvent(Event event) {
+        notify(event);
+        return event;
     }
 
     /**

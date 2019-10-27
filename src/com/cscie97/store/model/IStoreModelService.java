@@ -77,6 +77,8 @@ public interface IStoreModelService {
 
     Customer getCustomerByCustomerName(String customerName) throws StoreException;
 
+    Event createAnEvent(Event event);
+
     void setAuthKey(String authKey);
 }
 
