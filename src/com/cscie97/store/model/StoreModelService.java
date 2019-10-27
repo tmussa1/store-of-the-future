@@ -373,6 +373,22 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     /**
+     * Returns a customer by name
+     * @param customerName
+     * @return a customer
+     */
+    @Override
+    public Customer getCustomerByCustomerName(String customerName) throws StoreException {
+        Customer customer = this.customers.stream()
+                .filter(aCustomer -> aCustomer.getFirstName().equals(customerName))
+                .findAny().get();
+        if(customer == null){
+            throw new StoreException("Customer not found ");
+        }
+        return customer;
+    }
+
+    /**
      * Finds a customer with the provided basket id
      * @param basketId
      * @return customer object

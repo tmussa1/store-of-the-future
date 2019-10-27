@@ -74,5 +74,7 @@ public interface IStoreModelService {
     List<Speaker> getAllSpeakersWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
 
     List<Robot> getAllRobotsWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
+
+    Customer getCustomerByCustomerName(String customerName) throws StoreException;
 }
 

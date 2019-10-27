@@ -199,9 +199,9 @@ dropped prod11 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_A1:shelf_q1
 customer cust_22 removes prod12 from store_123:aisle_B2:shelf_q1
 customer cust_24 removes prod10 from store_123:aisle_A1:shelf_q1
-find_customer cust_22
-find_customer cust_AB
-find_customer cust_E2
+find_customer MEGON
+find_customer SILVER
+find_customer MARY
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_B2:shelf_q2
@@ -212,12 +212,12 @@ broken_glass in store_123:aisle_A2
 dropped prod10 on store_123:aisle_A1:shelf_q1
 dropped prod11 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_A1:shelf_q1
-find_customer cust_S2
-find_customer cust_21
+find_customer MARIA
+find_customer BILL
 customer cust_21 wants 3 of prod10
 customer cust_22 wants 5 of prod11
-find_customer cust_23
-find_customer cust_24
+find_customer SALINA
+find_customer JSON
 invoke-commands
 customer cust_S2 seen_at store_123:aisle_B1
 customer cust_22 seen_at store_123:aisle_A2
