@@ -4,13 +4,13 @@ import com.cscie97.store.model.*;
 
 import java.util.logging.Logger;
 
-public class MissingPersonCommand extends AbstractCommand {
+public class FIndCustomerCommand extends AbstractCommand {
 
     private String firstName;
 
-    Logger logger = Logger.getLogger(MissingPersonCommand.class.getName());
+    Logger logger = Logger.getLogger(FIndCustomerCommand.class.getName());
 
-    public MissingPersonCommand(String customerName) {
+    public FIndCustomerCommand(String customerName) {
         this.firstName = customerName;
     }
 
@@ -27,6 +27,6 @@ public class MissingPersonCommand extends AbstractCommand {
         } catch (StoreException e) {
             logger.warning("Finding missing person not successful");
         }
-        return new Event(MissingPersonCommand.class.getName());
+        return new Event(FIndCustomerCommand.class.getName());
     }
 }

@@ -4,5 +4,5 @@ import com.cscie97.store.model.Event;
 import com.cscie97.store.model.StoreException;
 
 public interface ICommand {
-    Event execute() throws StoreException;
+    Event execute() throws StoreControllerServiceException;
 }

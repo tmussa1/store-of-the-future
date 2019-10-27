@@ -58,7 +58,7 @@ public class CustomerNeedsItemCommand extends AbstractCommand {
             basket.addProductToBasket(product, count);
             logger.info("The customer " + customer.getFirstName() + "'s basket has been updated and now contains "
             + count + " of " + product.getProductName());
-            int updateInventoryCount = this.storeModelService.updateInventoryCount(inventory.getInventoryId(), count);
+            int updateInventoryCount = this.storeModelService.updateInventoryCount(inventory.getInventoryId(), -count);
             logger.info("Invetory count has been updated to " + updateInventoryCount + " from " +
                     inventory.getCount() + " after " + count + " counts of " + product.getProductName() + " have been handed to "+
                     customer.getFirstName());
