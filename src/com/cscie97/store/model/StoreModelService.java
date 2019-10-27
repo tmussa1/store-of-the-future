@@ -1,6 +1,9 @@
 package com.cscie97.store.model;
 
+import com.cscie97.store.controller.StoreControllerServiceException;
+
 import java.util.*;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
@@ -16,6 +19,8 @@ public class StoreModelService implements IStoreModelService, ISubject {
     private List<IObserver> observers;
     private static StoreModelService instance;
     private String authKey;
+
+    Logger logger = Logger.getLogger(StoreModelService.class.getName());
 
     private StoreModelService() {
         this.customers = new ArrayList<>();
@@ -723,7 +728,13 @@ public class StoreModelService implements IStoreModelService, ISubject {
      */
     @Override
     public void notify(Event event) {
-        observers.stream().forEach(observer -> observer.update(event));
+        observers.stream().forEach(observer -> {
+            try {
+                observer.update(event);
+            } catch (StoreControllerServiceException e) {
+                logger.warning("Failed to notify observers");
+            }
+        });
     }
 
     /**

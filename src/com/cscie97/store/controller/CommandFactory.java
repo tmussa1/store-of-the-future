@@ -1,5 +1,6 @@
 package com.cscie97.store.controller;
 
+import com.cscie97.ledger.LedgerException;
 import com.cscie97.store.model.Event;
 
 import java.util.logging.Logger;
@@ -113,6 +114,29 @@ public class CommandFactory {
                 storeControllerService.addCommands(updateCustomerLocationCommand);
                 logger.info("Customer seen command added to queue. We will get back to you");
                 return updateCustomerLocationCommand;
+            case "create-ledger":
+                try {
+                CreateLedgerCommand ledgerCommand = new CreateLedgerCommand(commandWords[1],
+                        commandWords[3], commandWords[5]);
+                storeControllerService.addCommands(ledgerCommand);
+                logger.info("Ledger initialization request added to queue. We will get back to you");
+                return ledgerCommand;
+                } catch (LedgerException e) {
+                    logger.warning("Ledger initialization failed");
+                }
+            case "create-account":
+                CreateAccountCommand accountCommand = new CreateAccountCommand(commandWords[1]);
+                storeControllerService.addCommands(accountCommand);
+                logger.info("Create account request added to queue. We will get back to you");
+                return accountCommand;
+            case "process-transaction":
+                ProcessTransactionCommand processTransactionCommand =
+                        new ProcessTransactionCommand(commandWords[1], Integer.parseInt(commandWords[3]),
+                                Integer.parseInt(commandWords[5]), commandWords[7], commandWords[9],
+                                commandWords[11]);
+                storeControllerService.addCommands(processTransactionCommand);
+                logger.info("Process transaction added to queue. We will get back to you");
+                return processTransactionCommand;
             default:
                 throw new StoreControllerServiceException("Command not recognizable by the Store Controller Service");
         }

@@ -27,10 +27,17 @@ public abstract class AbstractCommand implements Callable<Event>, ICommand{
      */
     public AbstractCommand(String ledgerName, String ledgerDescription, String ledgerSeed)
             throws LedgerException {
-        this.ledger = new Ledger(ledgerName, ledgerDescription, ledgerSeed);
+        this.ledger = createLedger(ledgerName, ledgerDescription, ledgerSeed);
         this.storeModelService = StoreModelService.getInstance();
         setAuthKey("opaque-string");
         this.storeModelService.setAuthKey(getAuthKey());
+    }
+
+    private Ledger createLedger(String ledgerName, String ledgerDescription, String ledgerSeed) throws LedgerException {
+        if(ledger == null){
+            ledger = new Ledger(ledgerName, ledgerDescription, ledgerSeed);
+        }
+        return ledger;
     }
 
     /**
@@ -38,6 +45,8 @@ public abstract class AbstractCommand implements Callable<Event>, ICommand{
      */
     public AbstractCommand() {
         this.storeModelService = StoreModelService.getInstance();
+        setAuthKey("opaque-string");
+        this.storeModelService.setAuthKey(getAuthKey());
     }
 
     /**
