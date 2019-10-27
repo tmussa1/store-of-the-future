@@ -77,6 +77,31 @@ public class CommandFactory {
                 storeControllerService.addCommands(droppedCommand);
                 logger.info("Product dropped to floor command added to queue. We will get back to you");
                 return droppedCommand;
+            case "broken_glass":
+                String [] storeAisle4 = commandWords[2].split(":");
+                AbstractCommand brokenGlassCommand = new CleanStoreCommand(commandWords[0],
+                        storeAisle4[0], storeAisle4[1], "");
+                storeControllerService.addCommands(brokenGlassCommand);
+                logger.info("Broken glass command added to queue. We will get back to you");
+                return brokenGlassCommand;
+            case "find_customer":
+                AbstractCommand missingPersonCommand = new FIndCustomerCommand(commandWords[1]);
+                storeControllerService.addCommands(missingPersonCommand);
+                logger.info("Missing person command added to queue. We will get back to you");
+                return missingPersonCommand;
+            case "wants":
+                AbstractCommand customerNeedsItem = new CustomerNeedsItemCommand(commandWords[5]
+                        , commandWords[3], Integer.parseInt(commandWords[1]));
+                storeControllerService.addCommands(customerNeedsItem);
+                logger.info("Customer needs a product command added to queue. We will get back to you");
+                return customerNeedsItem;
+            case "seen_at":
+                String [] storeAisle5 = commandWords[1].split(":");
+                AbstractCommand updateCustomerLocationCommand = new CustomerSeenCommand(commandWords[3],
+                        storeAisle5[0], storeAisle5[1]);
+                storeControllerService.addCommands(updateCustomerLocationCommand);
+                logger.info("Customer seen command added to queue. We will get back to you");
+                return updateCustomerLocationCommand;
         }
         return null;
     }

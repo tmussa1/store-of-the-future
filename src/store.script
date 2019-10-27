@@ -216,41 +216,41 @@ dropped prod11 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_A1:shelf_q1
 find_customer MARIA
 find_customer BILL
-customer cust_21 wants 3 of prod10
-customer cust_22 wants 5 of prod11
+wants 3 of prod10 customer cust_21
+wants 5 of prod11 customer cust_22
 find_customer SALINA
 find_customer JSON
 invoke-commands
-customer cust_S2 seen_at store_123:aisle_B1
-customer cust_22 seen_at store_123:aisle_A2
+seen_at store_123:aisle_B1 customer cust_S2
+seen_at store_123:aisle_A2 customer cust_22
 weight_assistance wanted customer cust_24
 weight_assistance wanted customer cust_21
-customer cust_21 seen_at store_123:aisle_B2
-customer cust_E2 wants 7 of prod12
-customer cust_23 wants 9 of prod11
-customer cust_S2 wants 8 of prod12
-customer cust_24 wants 9 of prod11
+seen_at store_123:aisle_B2 customer cust_21
+wants 7 of prod12 customer cust_E2
+wants 9 of prod11 customer cust_23
+wants 8 of prod12 customer cust_S2
+wants 9 of prod11 customer cust_24
 invoke-commands
-customer cust_24 seen_at store_123:aisle_B3
-customer cust_E2 seen_at store_123:aisle_B1
+seen_at store_123:aisle_B3 customer cust_24
+seen_at store_123:aisle_B1 customer cust_E2
 basket_value wanted customer cust_AB
 basket_value wanted customer cust_S2
 basket_value wanted customer cust_21
 basket_value wanted customer cust_23
-customer cust_23 seen_at store_123:aisle_B3
-customer cust_AB seen_at store_123:aisle_A2
-customer cust_S2 wants 2 of prod10
-customer cust_24 wants 3 of prod11
+seen_at store_123:aisle_B3 customer cust_23
+seen_at store_123:aisle_A2 customer cust_AB
+wants 2 of prod10 customer cust_S2
+wants 3 of prod11 customer cust_24
 weight_assistance wanted customer cust_22
 weight_assistance wanted customer cust_23
 invoke-commands
 weight_assistance wanted customer cust_AB
-customer cust_AB wants 4 of prod12
-customer cust_AB wants 5 of prod10
-customer cust_E2 wants 4 of prod11
-customer cust_23 wants 12 of prod12
-customer cust_21 wants 16 of prod11
-customer cust_22 wants 7 of prod10
+wants 4 of prod12 customer cust_AB
+wants 5 of prod10 customer cust_AB
+wants 4 of prod11 customer cust_E2
+wants 12 of prod12 customer cust_23
+wants 16 of prod11 customer cust_21
+wants 7 of prod10 customer cust_22
 basket_value wanted customer cust_22
 basket_value wanted customer cust_24
 invoke-commands
