@@ -622,16 +622,16 @@ public class StoreModelService implements IStoreModelService, ISubject {
      * Moves the robot by changing its location
      * @param storeId
      * @param aisleNumber
-     * @param sensorRobotId
+     * @param applianceRobotId
      * @param newAisleNumber
      * @return a robot
      * @throws StoreException
      */
     @Override
-    public ISensor moveRobot(String storeId, String aisleNumber, String sensorRobotId, String newAisleNumber) throws StoreException {
-        Robot robot = (Robot) getSensorByLocationAndSensorId(storeId,aisleNumber, sensorRobotId);
+    public IAppliance moveRobot(String storeId, String aisleNumber, String applianceRobotId, String newAisleNumber) throws StoreException {
+        Robot robot = (Robot) getApplianceByLocationAndSensorId(storeId,aisleNumber, applianceRobotId);
         InventoryLocation newRobotLocation = new InventoryLocation(storeId, newAisleNumber, "");
-        robot.setSensorLocation(newRobotLocation);
+        robot.setApplianceLocation(newRobotLocation);
         return robot;
     }
 

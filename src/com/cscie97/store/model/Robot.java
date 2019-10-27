@@ -77,6 +77,11 @@ public class Robot implements ISensor, IAppliance {
         this.sensorLocation = sensorLocation;
     }
 
+    public void setApplianceLocation(InventoryLocation applianceLocation){
+        this.sensorLocation = applianceLocation;
+        setSensorLocation(applianceLocation);
+    }
+
     /**
      * Generates appliance event
      * @param event

@@ -65,7 +65,7 @@ public interface IStoreModelService {
 
     String createApplianceCommand(String storeId, String aisleNumber, String applianceId, Command command) throws StoreException;
 
-    ISensor moveRobot(String storeId, String aisleNumber, String sensorRobotId, String newAisleNumber) throws StoreException;
+    IAppliance moveRobot(String storeId, String aisleNumber, String applianceRobotId, String newAisleNumber) throws StoreException;
 
     List<Turnstile> getAllTurnstilesWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
 

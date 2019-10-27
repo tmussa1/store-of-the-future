@@ -27,6 +27,6 @@ public class CheckAccountBalanceCommand extends AbstractCommand {
         } catch (StoreException e) {
             logger.info("Error checking account balance");
         }
-        return null;
+        return new Event(CheckAccountBalanceCommand.class.getName());
     }
 }
