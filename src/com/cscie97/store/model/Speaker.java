@@ -63,8 +63,8 @@ public class Speaker implements IAppliance {
         return this.applianceName + " is doing " + command.getMessage();
     }
 
-    public String echoAnnouncement(String announcement){
-        return announcement;
+    public String echoAnnouncement(Command announcement){
+        return announcement.getMessage();
     }
 
     @Override

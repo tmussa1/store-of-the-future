@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckAccountBalanceCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerEnteredCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/AssistCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerNeedsItemCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/ledger/Ledger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/ledger/Ledger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckAccountBalanceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckAccountBalanceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckoutCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerEnteredCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerEnteredCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/EmergencyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/EmergencyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/ICommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/Speaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.script" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.script" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +69,7 @@
       <updated>1571350861259</updated>
       <workItem from="1571350862654" duration="5834000" />
       <workItem from="1571472203976" duration="12502000" />
-      <workItem from="1572057157248" duration="13275000" />
+      <workItem from="1572057157248" duration="16972000" />
     </task>
     <servers />
   </component>

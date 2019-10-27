@@ -39,10 +39,11 @@ public class EmergencyCommand extends AbstractCommand{
             turnstilesOpened.stream().forEach(turnstile ->
                     logger.info("Turnstile " + turnstile.getApplianceId() + " opened for emergency"));
             speakers = this.storeModelService.getAllSpeakersWithinAnAisle(storeId, aisleNumber);
+
             speakers.stream()
-                    .forEach(speaker -> logger.info(speaker.echoAnnouncement("There is emergency " +
+                    .forEach(speaker -> logger.info(speaker.echoAnnouncement(new Command("There is emergency " +
                             emergencyType + " in " +
-                            aisleNumber + " please leave store " + store.getStoreName() + " immediately")));
+                            aisleNumber + " please leave store " + store.getStoreName() + " immediately"))));
             robots = this.storeModelService.getAllRobotsWithinAnAisle(storeId, aisleNumber);
             Command commandForOneRobot = new Command("Address " +
                     emergencyType + " emergency in " + aisleNumber);

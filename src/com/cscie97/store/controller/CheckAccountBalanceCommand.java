@@ -1,9 +1,8 @@
 package com.cscie97.store.controller;
 
-import com.cscie97.store.model.Customer;
-import com.cscie97.store.model.Event;
-import com.cscie97.store.model.StoreException;
+import com.cscie97.store.model.*;
 
+import java.util.List;
 import java.util.logging.Logger;
 
 public class CheckAccountBalanceCommand extends AbstractCommand {
@@ -21,7 +20,10 @@ public class CheckAccountBalanceCommand extends AbstractCommand {
             Customer customer = this.storeModelService.getCustomerById(customerId);
             logger.info("Customer " + customer.getFirstName() + "found" );
             int accountBalance = this.ledger.getAccountBalance(customer.getAccountAddress());
-            logger.info("Customer " + customer.getFirstName() + "'s balance is " + accountBalance);
+            List<Speaker> speakers = this.storeModelService.getAllSpeakersWithinAnAisle(
+                    customer.getCustomerLocation().getStoreId(), customer.getCustomerLocation().getAisleNumber());
+            Command speakerCommand = new Command("Customer " + customer.getFirstName() + "'s balance is " + accountBalance);
+            logger.info(speakers.get(0).echoAnnouncement(speakerCommand));
         } catch (StoreException e) {
             logger.info("Error checking account balance");
         }

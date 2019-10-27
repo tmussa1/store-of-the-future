@@ -67,21 +67,21 @@ define-customer cust_24 first_name MARIA last_name WILIAMSON type registered ema
 define-customer cust_S2 first_name SALINA last_name GOMEZ type registered email_address salina@gmail.com account salina
 create-ledger iceland description 'iceland ledger' seed 'vik'
 create-account store_123
-create-account cust_AB
-create-account cust_21
-create-account cust_22
-create-account cust_E2
-create-account cust_23
-create-account cust_24
-create-account cust_S2
+create-account json
+create-account bill
+create-account mary
+create-account silver
+create-account megon
+create-account maria
+create-account salina
 process-transaction 1 amount 10000 fee 10 payload 'pay store_123' payer master receiver store_123
-process-transaction 2 amount 10000 fee 10 payload 'pay cust_21' payer master receiver cust_21
-process-transaction 3 amount 10000 fee 10 payload 'pay cust_22' payer master receiver cust_22
-process-transaction 4 amount 10000 fee 10 payload 'pay cust_23' payer master receiver cust_23
-process-transaction 5 amount 10000 fee 10 payload 'pay cust_AB' payer master receiver cust_AB
-process-transaction 6 amount 10000 fee 10 payload 'pay cust_E2' payer master receiver cust_E2
-process-transaction 7 amount 10000 fee 10 payload 'pay cust_S2' payer master receiver cust_S2
-process-transaction 8 amount 10000 fee 10 payload 'pay cust_24' payer master receiver cust_24
+process-transaction 2 amount 10000 fee 10 payload 'pay cust_21' payer master receiver bill
+process-transaction 3 amount 10000 fee 10 payload 'pay cust_22' payer master receiver mary
+process-transaction 4 amount 10000 fee 10 payload 'pay cust_23' payer master receiver megon
+process-transaction 5 amount 10000 fee 10 payload 'pay cust_AB' payer master receiver json
+process-transaction 6 amount 10000 fee 10 payload 'pay cust_E2' payer master receiver silver
+process-transaction 7 amount 10000 fee 10 payload 'pay cust_S2' payer master receiver salina
+process-transaction 8 amount 10000 fee 10 payload 'pay cust_24' payer master receiver maria
 update-customer cust_S2 location store_123:aisle_B2
 update-customer cust_21 location store_123:aisle_A2
 update-customer cust_22 location store_123:aisle_A1
@@ -136,6 +136,7 @@ customer cust_AB entering store_123 turnstile turn_a1
 customer cust_24 entering store_123 turnstile turn_a1
 customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
+invoke-commands
 emergency earthquake in store_123:aisle_B3
 customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
@@ -145,15 +146,18 @@ customer cust_E2 entering store_123 turnstile turn_a1
 customer cust_23 removes prod11 from store_123:aisle_B2:shelf_q1
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
+invoke-commands
 customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
 broken_glass in store_123:aisle_B3
+invoke-commands
 broken_glass in store_123:aisle_A2
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 customer cust_S2 removes prod10 from store_123:aisle_A1:shelf_q1
 customer cust_22 removes prod12 from store_123:aisle_B2:shelf_q1
 customer cust_24 removes prod10 from store_123:aisle_A1:shelf_q1
+invoke-commands
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
 customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
@@ -162,6 +166,7 @@ emergency armed_intruder in store_123:aisle_A2
 customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
 customer cust_22 removes prod11 from store_123:aisle_B2:shelf_q1
 customer cust_AB removes prod12 from store_123:aisle_B2:shelf_q1
+invoke-commands
 customer cust_23 removes prod11 from store_123:aisle_A1:shelf_q2
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 dropped prod12 on store_123:aisle_B2:shelf_q1
@@ -171,12 +176,14 @@ customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_24 adds prod10 to store_123:aisle_B2:shelf_q2
 customer cust_22 adds prod12 to store_123:aisle_B2:shelf_q1
+invoke-commands
 customer cust_23 adds prod11 to store_123:aisle_B2:shelf_q1
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 customer cust_S2 removes prod10 from store_123:aisle_A1:shelf_q1
 customer cust_AB removes prod10 from store_123:aisle_A1:shelf_q1
 dropped prod12 on store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_B2:shelf_q2
+invoke-commands
 customer cust_21 removes prod11 from store_123:aisle_A1:shelf_q2
 customer cust_S2 removes prod12 from store_123:aisle_B2:shelf_q1
 customer cust_22 removes prod11 from store_123:aisle_B2:shelf_q1
@@ -198,6 +205,7 @@ find_customer cust_E2
 customer cust_24 removes prod10 from store_123:aisle_B2:shelf_q2
 customer cust_21 removes prod12 from store_123:aisle_B2:shelf_q1
 dropped prod10 on store_123:aisle_B2:shelf_q2
+invoke-commands
 dropped prod11 on store_123:aisle_B2:shelf_q1
 broken_glass in store_123:aisle_B3
 broken_glass in store_123:aisle_A2
@@ -210,6 +218,7 @@ customer cust_21 wants 3 of prod10
 customer cust_22 wants 5 of prod11
 find_customer cust_23
 find_customer cust_24
+invoke-commands
 customer cust_S2 seen_at store_123:aisle_B1
 customer cust_22 seen_at store_123:aisle_A2
 customer cust_24 wants weight_assistance
@@ -219,6 +228,7 @@ customer cust_E2 wants 7 of prod12
 customer cust_23 wants 9 of prod11
 customer cust_S2 wants 8 of prod12
 customer cust_24 wants 9 of prod11
+invoke-commands
 customer cust_24 seen_at store_123:aisle_B3
 customer cust_E2 seen_at store_123:aisle_B1
 customer cust_AB asks basket_value
@@ -231,6 +241,7 @@ customer cust_S2 wants 2 of prod10
 customer cust_24 wants 3 of prod11
 customer cust_22 wants weight_assistance
 customer cust_23 wants weight_assistance
+invoke-commands
 customer cust_AB wants weight_assistance
 customer cust_AB wants 4 of prod12
 customer cust_AB wants 5 of prod10
@@ -240,12 +251,15 @@ customer cust_21 wants 16 of prod11
 customer cust_22 wants 7 of prod10
 customer cust_22 asks basket_value
 customer cust_24 asks basket_value
+invoke-commands
 customer cust_E2 asks basket_value
 customer cust_E2 wants weight_assistance
 customer cust_S2 wants weight_assistance
 customer cust_22 approached_turnstile turn_a3 location store_123:aisle_A2
 customer cust_E2 approached_turnstile turn_a1 location store_123:aisle_A2
 customer cust_21 approached_turnstile turn_a1 location store_123:aisle_A2
+invoke-commands
 customer cust_24 approached_turnstile turn_a3 location store_123:aisle_A2
 customer cust_23 approached_turnstile turn_a2 location store_123:aisle_A2
 customer cust_AB approached_turnstile turn_a3 location store_123:aisle_A2
+invoke-commands

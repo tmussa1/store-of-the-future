@@ -55,11 +55,15 @@ public class CheckoutCommand extends AbstractCommand {
                     .getAllTurnstilesWithinAnAisle(storeId, aisleNumber);
             this.storeModelService.openTurnstiles(turnstiles);
             logger.info("Turnstile " + turnstiles.get(0) + " opened for customer ");
-            logger.info("Goodbye " + customer.getFirstName() + " for shopping at " + store.getStoreName());
+            Command speakerCommand = new Command("Goodbye " + customer.getFirstName() + " for shopping at "
+                    + store.getStoreName());
+            List<Speaker> speakers = this.storeModelService.getAllSpeakersWithinAnAisle(store.getStoreId(),
+                    aisleNumber);
+            logger.info(speakers.get(0).echoAnnouncement(speakerCommand));
         } catch (StoreException | LedgerException e) {
             logger.warning("Customer unable to checkout");
         }
-        return null;
+        return new Event(CheckoutCommand.class.getName());
     }
 
     private int calculateTotal(Map<Product, Integer> basketItems) {

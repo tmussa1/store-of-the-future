@@ -43,7 +43,11 @@ public class CustomerEnteredCommand extends AbstractCommand {
                     .getAllTurnstilesWithinAnAisle(storeId, aisleNumber);
             this.storeModelService.openTurnstiles(turnstiles);
             logger.info("Turnstile " + turnstiles.get(0) + " opened for customer ");
-            logger.info("Welcome customer " + customer.getFirstName() + " to " + location.getStoreId());
+            Command speakerCommand = new Command("Welcome customer " + customer.getFirstName() +
+                    " to " + location.getStoreId());
+            List<Speaker> speakers = this.storeModelService.getAllSpeakersWithinAnAisle(location.getStoreId(),
+                    location.getAisleNumber());
+            logger.info(speakers.get(0).echoAnnouncement(speakerCommand));
         } catch (StoreException e) {
             logger.warning("Customer unable to enter the store");
         }
