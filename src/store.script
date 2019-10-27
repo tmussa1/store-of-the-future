@@ -65,6 +65,8 @@ define-customer cust_E2 first_name SILVER last_name HAWK type guest email_addres
 define-customer cust_23 first_name MEGON last_name FOX type guest email_address megonfox@testmail.com account megon
 define-customer cust_24 first_name MARIA last_name WILIAMSON type registered email_address maria4567@ymail.com account maria
 define-customer cust_S2 first_name SALINA last_name GOMEZ type registered email_address salina@gmail.com account salina
+create-controller cont
+register-controller cont
 create-ledger iceland description 'iceland ledger' seed 'vik'
 create-account store_123
 create-account json
