@@ -4,6 +4,10 @@ import com.cscie97.store.model.*;
 
 import java.util.logging.Logger;
 
+/**
+ * This command gets called when a customer has trouble finding a product
+ * @author Tofik Mussa
+ */
 public class CustomerNeedsItemCommand extends AbstractCommand {
 
     private String customerId;
@@ -12,6 +16,12 @@ public class CustomerNeedsItemCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(CustomerNeedsItemCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     * @param productId
+     * @param count
+     */
     public CustomerNeedsItemCommand(String customerId, String productId, int count) {
         this.customerId = customerId;
         this.productId = productId;
@@ -26,7 +36,7 @@ public class CustomerNeedsItemCommand extends AbstractCommand {
      * 4 - Robot moves back to the customer and hands in the product of however many was requested
      * 5 - Customer's basket gets updated with the product and the corresponding count
      * 6 - Inventory count gets updated to reflect the item the customer picked up
-     * @return - customer needs item event
+     * @return - customer needs item type event
      */
     @Override
     public Event execute() {

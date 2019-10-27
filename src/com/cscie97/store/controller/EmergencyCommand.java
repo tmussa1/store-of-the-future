@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.logging.Logger;
 
+/**
+ * This command gets called during emergency. Robots address the emergency
+ * @author Tofik Mussa
+ */
 public class EmergencyCommand extends AbstractCommand{
 
     private String emergencyType;
@@ -14,6 +18,12 @@ public class EmergencyCommand extends AbstractCommand{
 
     Logger logger = Logger.getLogger(EmergencyCommand.class.getName());
 
+    /**
+     *
+     * @param emergencyType
+     * @param storeId
+     * @param aisleNumber
+     */
     public EmergencyCommand(String emergencyType, String storeId, String aisleNumber) {
         this.emergencyType = emergencyType;
         this.storeId = storeId;
@@ -21,9 +31,12 @@ public class EmergencyCommand extends AbstractCommand{
     }
 
     /**
-     * Actions performed during emergency are logged to the console.
-     * One robot is randomly assigned to address the emergency and the rest are assigned to assisting customers
-     * @return - an emergency event
+     * The sequence of events than happen during emergency are as follows
+     * 1 - ALl of the turnstiles around the area are opened
+     * 2 - The speaker urges customers to leave the store
+     * 3 - A randomly picked robot from nearby addresses the emergency
+     * 4 - The rest of the robots assist customers to leave the store
+     * @return - an emergency type event
      */
     @Override
     public Event execute() {

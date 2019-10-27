@@ -7,6 +7,11 @@ import com.cscie97.store.model.StoreException;
 
 import java.util.logging.Logger;
 
+/**
+ * This command is called when cameras sense the movement of a customer or through voice recognition
+ * and a customer's location need to be updated
+ * @author Tofik Mussa
+ */
 public class CustomerSeenCommand extends AbstractCommand {
 
     private String customerId;
@@ -15,12 +20,22 @@ public class CustomerSeenCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(CustomerSeenCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     * @param storeId
+     * @param aisleNumber
+     */
     public CustomerSeenCommand(String customerId, String storeId, String aisleNumber) {
         this.customerId = customerId;
         this.storeId = storeId;
         this.aisleNumber = aisleNumber;
     }
 
+    /**
+     * Updates the location of a customer when sensed by camera or through voice recognition
+     * @return a customer seen type event
+     */
     @Override
     public Event execute() {
         Customer customer = null;

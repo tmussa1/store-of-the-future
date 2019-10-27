@@ -5,6 +5,10 @@ import com.cscie97.store.model.*;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ * This happens when a customer tries to enter store
+ * @author Tofik Mussa
+ */
 public class CustomerEnteredCommand extends AbstractCommand {
 
     private String customerId;
@@ -14,6 +18,13 @@ public class CustomerEnteredCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(CustomerEnteredCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     * @param storeId
+     * @param aisleNumber
+     * @param turnstileId
+     */
     public CustomerEnteredCommand(String customerId, String storeId, String aisleNumber, String turnstileId) {
         this.customerId = customerId;
         this.storeId = storeId;
@@ -24,8 +35,13 @@ public class CustomerEnteredCommand extends AbstractCommand {
     /**
      * Guests may come with a registered customer so all turnstiles near the aisle are opened.
      * The first turnstile will be delegated to the primary customer.
-     * Action's performed to successfully let a customer in are logged
-     * @return - a customer entered event
+     * The sequence of actions is as follows
+     * 1 - Basket is assigned to a customer if there is not one associated with him already
+     * 2 - Since the customer is entering a store, his location is updated to the current store he is entering
+     * 3 - The customer's balance is looked up from his block chain account
+     * 4 - A turnstile is opened for the customer and additional turnstiles may be open for guests coming with the customer
+     * 5 - A welcome message is echoed by the speaker
+     * @return - a customer entered type event
      */
     @Override
     public Event execute() {

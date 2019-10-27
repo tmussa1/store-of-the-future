@@ -4,6 +4,10 @@ import com.cscie97.store.model.*;
 
 import java.util.logging.Logger;
 
+/**
+ * This class is a prompt for cleaning. It can be called for broken glasses or products dropped on the floor
+ * @author Tofik Mussa
+ */
 public class CleanStoreCommand extends AbstractCommand {
 
     private String mess;
@@ -13,17 +17,24 @@ public class CleanStoreCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(CleanStoreCommand.class.getName());
 
+    /**
+     *
+     * @param mess
+     * @param storeId
+     * @param aisleNumber
+     * @param shelfId
+     */
     public CleanStoreCommand(String mess, String storeId, String aisleNumber, String shelfId) {
         this.mess = mess;
         this.storeId = storeId;
         this.aisleNumber = aisleNumber;
-
     }
 
     /**
      * An extension from the requirements is when a product is dropped, inventory count gets updated since
-     * that particular item will no longer be for sale
-     * @return - a clean store commmand
+     * that particular item will no longer be for sale.
+     * In either case a robot is assigned to clean up
+     * @return - a clean store type event
      */
     @Override
     public Event execute() {

@@ -10,6 +10,10 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.logging.Logger;
 
+/**
+ * This command gets called when a customer approaches a turnstile trying to exi
+ * @author Tofik Mussa
+ */
 public class CheckoutCommand extends AbstractCommand {
 
     private String customerId;
@@ -19,6 +23,13 @@ public class CheckoutCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(CheckoutCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     * @param storeId
+     * @param aisleNumber
+     * @param turnstileId
+     */
     public CheckoutCommand(String customerId, String storeId, String aisleNumber, String turnstileId) {
         this.customerId = customerId;
         this.storeId = storeId;
@@ -26,6 +37,15 @@ public class CheckoutCommand extends AbstractCommand {
         this.turnstileId = turnstileId;
     }
 
+    /**
+     * The following happen in sequence during check out
+     * 1 - customer and his basket are identified
+     * 2 - the items in a basket are identified and the amount due is computed
+     * 3 - the customer's balance in his block chain account is obtained and whether he has sufficient balance is determined
+     * 4 - A transaction is sent to be processed by the ledger service and if successful a confirmation is echoed
+     * 5 - A turnstile is opened for the customer and a goodbye message is echoed
+     * @return a check out type event
+     */
     @Override
     public Event execute() {
         Customer customer;
@@ -66,6 +86,11 @@ public class CheckoutCommand extends AbstractCommand {
         return new Event(CheckoutCommand.class.getName());
     }
 
+    /**
+     * Calculates total value of items in a basket
+     * @param basketItems
+     * @return total value of items in a basket
+     */
     private int calculateTotal(Map<Product, Integer> basketItems) {
         return basketItems.keySet()
                 .stream()

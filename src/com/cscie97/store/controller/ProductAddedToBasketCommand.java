@@ -4,6 +4,11 @@ import com.cscie97.store.model.*;
 
 import java.util.logging.Logger;
 
+/**
+ * Similar to product removed from basket command, this command is called to keep inventory count in sync and to
+ * track items in a basket
+ * @author Tofik Mussa
+ */
 public class ProductAddedToBasketCommand extends AbstractCommand {
 
     private String productId;
@@ -14,6 +19,14 @@ public class ProductAddedToBasketCommand extends AbstractCommand {
 
     Logger logger = Logger.getLogger(ProductAddedToBasketCommand.class.getName());
 
+    /**
+     *
+     * @param productId
+     * @param customerId
+     * @param storeId
+     * @param aisleNumber
+     * @param shelfId
+     */
     public ProductAddedToBasketCommand(String productId, String customerId, String storeId, String aisleNumber, String shelfId) {
         this.productId = productId;
         this.customerId = customerId;

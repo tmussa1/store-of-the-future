@@ -8,12 +8,23 @@ import com.cscie97.store.model.StoreModelService;
 
 import java.util.concurrent.Callable;
 
+/**
+ * Establishes some common features for all commands
+ * @author Tofik Mussa
+ */
 public abstract class AbstractCommand implements Callable<Event>, ICommand{
 
     IStoreModelService storeModelService;
     Ledger ledger;
     private String authKey;
 
+    /**
+     * Initializes ledger
+     * @param ledgerName
+     * @param ledgerDescription
+     * @param ledgerSeed
+     * @throws LedgerException
+     */
     public AbstractCommand(String ledgerName, String ledgerDescription, String ledgerSeed)
             throws LedgerException {
         this.ledger = new Ledger(ledgerName, ledgerDescription, ledgerSeed);
@@ -22,19 +33,35 @@ public abstract class AbstractCommand implements Callable<Event>, ICommand{
         this.storeModelService.setAuthKey(getAuthKey());
     }
 
+    /**
+     * Overloaded constructor to initialize SMS
+     */
     public AbstractCommand() {
         this.storeModelService = StoreModelService.getInstance();
     }
 
+    /**
+     * Gets called when the thread executes
+     * @return
+     * @throws Exception
+     */
     @Override
     public Event call() throws Exception {
         return this.execute();
     }
 
+    /**
+     * Placeholder for next module
+     * @return
+     */
     public String getAuthKey() {
         return authKey;
     }
 
+    /**
+     * Placeholder for next module
+     * @param authKey
+     */
     public void setAuthKey(String authKey) {
         this.authKey = authKey;
     }

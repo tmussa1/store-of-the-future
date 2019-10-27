@@ -5,19 +5,28 @@ import com.cscie97.store.model.*;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ * When a customer carries more than 10lbs, he may call for assistance. However, this command takes individuals with
+ * disabilities into consideration and anyone can ask for assistance
+ * @author Tofik Mussa
+ */
 public class AssistCustomerCommand extends AbstractCommand {
 
     private String customerId;
 
     Logger logger = Logger.getLogger(AssistCustomerCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     */
     public AssistCustomerCommand(String customerId) {
         this.customerId = customerId;
     }
 
     /**
      * The first robot nearby is told the weight of the basket and is sent to assist customer
-     * @return - an assist customer event
+     * @return - an assist customer type event
      */
     @Override
     public Event execute() {
@@ -41,6 +50,11 @@ public class AssistCustomerCommand extends AbstractCommand {
         return new Event(AssistCustomerCommand.class.getName());
     }
 
+    /**
+     * Calculates the total weight of a basket
+     * @param basket
+     * @return weight of a basket
+     */
     private double calculateBasketWeight(Basket basket) {
         return basket.getProductsMap().keySet()
                 .stream().map(product -> product.getVolume())

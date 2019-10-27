@@ -6,15 +6,28 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
+/**
+ * Checks if customer has enough balance to purchase what he has in his basket
+ * @author Tofik Mussa
+ */
 public class CheckAccountBalanceCommand extends AbstractCommand {
 
     private String customerId;
 
     Logger logger = Logger.getLogger(CheckAccountBalanceCommand.class.getName());
 
+    /**
+     *
+     * @param customerId
+     */
     public CheckAccountBalanceCommand(String customerId) {
         this.customerId = customerId;
     }
+
+    /**
+     * Echoes if customer has enough balance in his block chain account to purchase what he has in his basket
+     * @return a check account balance type event
+     */
     @Override
     public Event execute() {
         try {
@@ -37,6 +50,11 @@ public class CheckAccountBalanceCommand extends AbstractCommand {
         return new Event(CheckAccountBalanceCommand.class.getName());
     }
 
+    /**
+     * Calculates total value of items in a basket
+     * @param basketItems
+     * @return total value of items in basket
+     */
     private int calculateTotal(Map<Product, Integer> basketItems) {
         return basketItems.keySet()
                 .stream()

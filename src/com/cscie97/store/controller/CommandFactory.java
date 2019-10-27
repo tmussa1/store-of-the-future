@@ -4,13 +4,24 @@ import com.cscie97.store.model.Event;
 
 import java.util.logging.Logger;
 
+/**
+ * This class implements the factory design pattern. It generates the appropriate command and adds it to the
+ * queue to process later. When the invoke commands command gets called, the commands in the queue execute
+ * in chunks. The client is sent a confirmation that the request is getting processed right away
+ * @author Tofik Mussa
+ */
 public class CommandFactory {
 
     private static StoreControllerService storeControllerService;
 
     static Logger logger = Logger.getLogger(CommandFactory.class.getName());
 
-    public static AbstractCommand createCommand(Event event){
+    /**
+     * Interprets events and in the case of commands, instantiates them and puts them in a queue for later processing
+     * @param event
+     * @return commands
+     */
+    public static AbstractCommand createCommand(Event event) throws StoreControllerServiceException {
         String [] commandWords = event.getMessage().split(" ");
         switch(commandWords[0]){
             case "create-controller":
@@ -102,10 +113,18 @@ public class CommandFactory {
                 storeControllerService.addCommands(updateCustomerLocationCommand);
                 logger.info("Customer seen command added to queue. We will get back to you");
                 return updateCustomerLocationCommand;
+            default:
+                throw new StoreControllerServiceException("Command not recognizable by the Store Controller Service");
         }
         return null;
     }
 
+    /**
+     * Creates store controller service
+     * This must happen before other commands since the other commands depend on this
+     * @param command
+     * @return an instance of store controller service
+     */
     public static StoreControllerService createController(String command){
         if(storeControllerService == null){
             storeControllerService = new StoreControllerService(command);
