@@ -673,6 +673,13 @@ public class StoreModelService implements IStoreModelService, ISubject {
     }
 
     @Override
+    public List<Turnstile> closeTurnstiles(List<Turnstile> turnstiles) {
+        return turnstiles.stream()
+                .map(aTurnstile -> aTurnstile.closeTurnstile())
+                .collect(Collectors.toList());
+    }
+
+    @Override
     public List<Speaker> getAllSpeakersWithinAnAisle(String storeId, String aisleNumber) throws StoreException {
         Aisle aisle = getAisleByStoreIdAndAisleNumber(storeId, aisleNumber);
         List<Speaker> speakers = aisle.getAppliances().stream()
@@ -695,7 +702,7 @@ public class StoreModelService implements IStoreModelService, ISubject {
     /**
      * This are the events that the store controller service is interested in
      * @param event
-     * @return
+     * @return -an Event SCS is interested in
      */
     @Override
     public Event createAnEvent(Event event) {

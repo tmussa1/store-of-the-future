@@ -1,5 +1,9 @@
 ﻿//////////////////////////////////////////////////////
 define-store store_123 name KMart address EMain Columbus Ohio
+create-controller cont
+register-controller cont
+create-ledger iceland description 'iceland ledger' seed 'vik'
+create-account store_123
 show-store store_123
 define-aisle store_123:aisle_A1 description AISLE_A1_desc location STOREROOM
 define-aisle store_123:aisle_A2 description AISLE_A2_desc location FLOOR
@@ -65,10 +69,6 @@ define-customer cust_E2 first_name SILVER last_name HAWK type guest email_addres
 define-customer cust_23 first_name MEGON last_name FOX type guest email_address megonfox@testmail.com account megon
 define-customer cust_24 first_name MARIA last_name WILIAMSON type registered email_address maria4567@ymail.com account maria
 define-customer cust_S2 first_name SALINA last_name GOMEZ type registered email_address salina@gmail.com account salina
-create-controller cont
-register-controller cont
-create-ledger iceland description 'iceland ledger' seed 'vik'
-create-account store_123
 create-account json
 create-account bill
 create-account mary
@@ -129,139 +129,139 @@ create-appliance-event turn_a1 event COUNT_INVENTORY location store_123:aisle_A2
 create-appliance-command rob_1 message STOCK_SHELL location store_123:aisle_A1
 create-appliance-command rob_2 message CLEAN_FLOOR location store_123:aisle_A2
 create-appliance-command turn_a3 message COUNT_INVENTORY location store_123:aisle_A2
-entering customer cust_24 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_21 store_123:aisle_A2 turnstile turn_a1
-emergency fire in store_123:aisle_A1
-emergency flood in store_123:aisle_B2
-entering customer cust_S2 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_AB store_123:aisle_A2 turnstile turn_a1
-entering customer cust_24 store_123:aisle_A2 turnstile turn_a1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
+entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_21 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+emergency fire in store_123:aisle_A1 reporter cam_A1
+emergency flood in store_123:aisle_B2 reporter cam_B2
+entering customer cust_S2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_AB store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2
 invoke-commands
-emergency earthquake in store_123:aisle_B3
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-entering customer cust_22 store_123:aisle_A2 turnstile turn_a1
-entering customer cust_E2 store_123:aisle_A2 turnstile turn_a1
-removes prod11 customer cust_23 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
+emergency earthquake in store_123:aisle_B3 reporter cam_A2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+entering customer cust_22 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_E2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+removes prod11 customer cust_23 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2
 invoke-commands
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-broken_glass in store_123:aisle_B3
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_B2
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+broken_glass in store_123:aisle_B3 reporter mic_A1
 invoke-commands
-broken_glass in store_123:aisle_A2
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1
+broken_glass in store_123:aisle_A2 reporter mic_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_A1
 invoke-commands
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-emergency armed_intruder in store_123:aisle_A2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod12 customer cust_AB from store_123:aisle_B2:shelf_q1
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+emergency armed_intruder in store_123:aisle_A2 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod12 customer cust_AB from store_123:aisle_B2:shelf_q1 reporter cam_B2
 invoke-commands
-removes prod11 customer cust_23 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-dropped prod12 on store_123:aisle_B2:shelf_q1
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-adds prod10 customer cust_24 to store_123:aisle_B2:shelf_q2
-adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1
+removes prod11 customer cust_23 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1
+adds prod10 customer cust_24 to store_123:aisle_B2:shelf_q2 reporter cam_A1
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A2
 invoke-commands
-adds prod11 customer cust_23 to store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1
-removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1
-dropped prod12 on store_123:aisle_B2:shelf_q1
-dropped prod10 on store_123:aisle_B2:shelf_q2
+adds prod11 customer cust_23 to store_123:aisle_B2:shelf_q1 reporter cam_B2
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1
+removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_B2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A2
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2
+dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2
 invoke-commands
-removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2
-removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1
-removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1
-adds prod12 customer cust_S2 to store_123:aisle_B2:shelf_q1
-adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1
-emergency earthquake in store_123:aisle_A1
-emergency armed_intruder in store_123:aisle_B2
-dropped prod11 on store_123:aisle_A1:shelf_q2
-dropped prod12 on store_123:aisle_B2:shelf_q1
-broken_glass in store_123:aisle_A1
-broken_glass in store_123:aisle_B2
-dropped prod11 on store_123:aisle_B2:shelf_q1
-dropped prod10 on store_123:aisle_A1:shelf_q1
-removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1
-removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1
-find_customer MEGON
-find_customer SILVER
-find_customer MARY
-removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2
-removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1
-dropped prod10 on store_123:aisle_B2:shelf_q2
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+adds prod12 customer cust_S2 to store_123:aisle_B2:shelf_q1 reporter cam_B2
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A1
+emergency earthquake in store_123:aisle_A1 reporter cam_B2
+emergency armed_intruder in store_123:aisle_B2 reporter cam_A2
+dropped prod11 on store_123:aisle_A1:shelf_q2 reporter cam_A1
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2
+broken_glass in store_123:aisle_A1 reporter mic_A1
+broken_glass in store_123:aisle_B2 reporter mic_A1
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_B2
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_B2
+find_customer MEGON reporter mic_A1
+find_customer SILVER reporter mic_A1
+find_customer MARY reporter mic_A1
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2
 invoke-commands
-dropped prod11 on store_123:aisle_B2:shelf_q1
-broken_glass in store_123:aisle_B3
-broken_glass in store_123:aisle_A2
-dropped prod10 on store_123:aisle_A1:shelf_q1
-dropped prod11 on store_123:aisle_B2:shelf_q1
-dropped prod10 on store_123:aisle_A1:shelf_q1
-find_customer MARIA
-find_customer BILL
-wants 3 of prod10 customer cust_21
-wants 5 of prod11 customer cust_22
-find_customer SALINA
-find_customer JSON
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+broken_glass in store_123:aisle_B3 reporter mic_A1
+broken_glass in store_123:aisle_A2 reporter mic_A1
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_B2
+find_customer MARIA reporter mic_A1
+find_customer BILL reporter mic_A1
+wants 3 of prod10 customer cust_21 reporter mic_A1
+wants 5 of prod11 customer cust_22 reporter mic_A1
+find_customer SALINA reporter mic_A1
+find_customer JSON reporter mic_A1
 invoke-commands
-seen_at store_123:aisle_B1 customer cust_S2
-seen_at store_123:aisle_A2 customer cust_22
-weight_assistance wanted customer cust_24
-weight_assistance wanted customer cust_21
-seen_at store_123:aisle_B2 customer cust_21
-wants 7 of prod12 customer cust_E2
-wants 9 of prod11 customer cust_23
-wants 8 of prod12 customer cust_S2
-wants 9 of prod11 customer cust_24
+seen_at store_123:aisle_B1 customer cust_S2 reporter cam_A1
+seen_at store_123:aisle_A2 customer cust_22 reporter cam_A2
+weight_assistance wanted customer cust_24 reporter turn_a1
+weight_assistance wanted customer cust_21 reporter turn_a2
+seen_at store_123:aisle_B2 customer cust_21 reporter cam_B2
+wants 7 of prod12 customer cust_E2 reporter mic_A1
+wants 9 of prod11 customer cust_23 reporter mic_A1
+wants 8 of prod12 customer cust_S2 reporter mic_A1
+wants 9 of prod11 customer cust_24 reporter mic_A1
 invoke-commands
-seen_at store_123:aisle_B3 customer cust_24
-seen_at store_123:aisle_B1 customer cust_E2
-basket_value wanted customer cust_AB
-basket_value wanted customer cust_S2
-basket_value wanted customer cust_21
-basket_value wanted customer cust_23
-seen_at store_123:aisle_B3 customer cust_23
-seen_at store_123:aisle_A2 customer cust_AB
-wants 2 of prod10 customer cust_S2
-wants 3 of prod11 customer cust_24
-weight_assistance wanted customer cust_22
-weight_assistance wanted customer cust_23
+seen_at store_123:aisle_B3 customer cust_24 reporter cam_A1
+seen_at store_123:aisle_B1 customer cust_E2 reporter cam_B2
+basket_value wanted customer cust_AB reporter mic_A1
+basket_value wanted customer cust_S2 reporter mic_A1
+basket_value wanted customer cust_21 reporter mic_A1
+basket_value wanted customer cust_23 reporter mic_A1
+seen_at store_123:aisle_B3 customer cust_23 reporter cam_A2
+seen_at store_123:aisle_A2 customer cust_AB reporter cam_A1
+wants 2 of prod10 customer cust_S2 reporter mic_A1
+wants 3 of prod11 customer cust_24 reporter mic_A1
+weight_assistance wanted customer cust_22 reporter turn_a3
+weight_assistance wanted customer cust_23 reporter turn_a2
 invoke-commands
-weight_assistance wanted customer cust_AB
-wants 4 of prod12 customer cust_AB
-wants 5 of prod10 customer cust_AB
-wants 4 of prod11 customer cust_E2
-wants 12 of prod12 customer cust_23
-wants 16 of prod11 customer cust_21
-wants 7 of prod10 customer cust_22
-basket_value wanted customer cust_22
-basket_value wanted customer cust_24
+weight_assistance wanted customer cust_AB reporter turn_a2
+wants 4 of prod12 customer cust_AB reporter mic_A1
+wants 5 of prod10 customer cust_AB reporter mic_A1
+wants 4 of prod11 customer cust_E2 reporter mic_A1
+wants 12 of prod12 customer cust_23 reporter mic_A1
+wants 16 of prod11 customer cust_21 reporter mic_A1
+wants 7 of prod10 customer cust_22 reporter mic_A1
+basket_value wanted customer cust_22 reporter mic_A1
+basket_value wanted customer cust_24 reporter mic_A1
 invoke-commands
-basket_value wanted customer cust_E2
-weight_assistance wanted customer cust_E2
-weight_assistance wanted customer cust_S2
-approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2
-approached_turnstile turn_a1 customer cust_E2 location store_123:aisle_A2
-approached_turnstile turn_a1 customer cust_21 location store_123:aisle_A2
+basket_value wanted customer cust_E2 reporter mic_A1
+weight_assistance wanted customer cust_E2 reporter turn_a1
+weight_assistance wanted customer cust_S2 reporter turn_a3
+approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2 reporter turn_a3
+approached_turnstile turn_a1 customer cust_E2 location store_123:aisle_A2 reporter turn_a1
+approached_turnstile turn_a1 customer cust_21 location store_123:aisle_A2 reporter turn_a1
 invoke-commands
-approached_turnstile turn_a3 customer cust_24 location store_123:aisle_A2
-approached_turnstile turn_a2 customer cust_23 location store_123:aisle_A2
-approached_turnstile turn_a3 customer cust_AB location store_123:aisle_A2
+approached_turnstile turn_a3 customer cust_24 location store_123:aisle_A2 reporter turn_a3
+approached_turnstile turn_a2 customer cust_23 location store_123:aisle_A2 reporter turn_a2
+approached_turnstile turn_a3 customer cust_AB location store_123:aisle_A2 reporter turn_a3
 invoke-commands

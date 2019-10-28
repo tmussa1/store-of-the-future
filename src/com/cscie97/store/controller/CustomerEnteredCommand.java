@@ -64,6 +64,8 @@ public class CustomerEnteredCommand extends AbstractCommand {
             List<Speaker> speakers = this.storeModelService.getAllSpeakersWithinAnAisle(location.getStoreId(),
                     location.getAisleNumber());
             logger.info(speakers.get(0).echoAnnouncement(speakerCommand));
+            this.storeModelService.closeTurnstiles(turnstiles);
+            logger.info("Turnstiles closed after customers entered");
         } catch (StoreException e) {
             logger.warning("Customer unable to enter the store");
         }

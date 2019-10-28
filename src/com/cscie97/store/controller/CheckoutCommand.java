@@ -80,6 +80,8 @@ public class CheckoutCommand extends AbstractCommand {
             List<Speaker> speakers = this.storeModelService.getAllSpeakersWithinAnAisle(store.getStoreId(),
                     aisleNumber);
             logger.info(speakers.get(0).echoAnnouncement(speakerCommand));
+            this.storeModelService.closeTurnstiles(turnstiles);
+            logger.info("Turnstiles closing after customer left");
         } catch (StoreException | LedgerException e) {
             logger.warning("Customer unable to checkout");
         }

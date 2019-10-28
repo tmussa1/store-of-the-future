@@ -71,6 +71,8 @@ public interface IStoreModelService {
 
     List<Turnstile> openTurnstiles(List<Turnstile> turnstiles);
 
+    List<Turnstile> closeTurnstiles(List<Turnstile> turnstiles);
+
     List<Speaker> getAllSpeakersWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
 
     List<Robot> getAllRobotsWithinAnAisle(String storeId, String aisleNumber) throws StoreException;
