@@ -29,7 +29,7 @@ public class StoreControllerService implements IObserver {
      */
     public StoreControllerService(String controllerName) {
         this.controllerName = controllerName;
-        this.commands = new ArrayDeque<AbstractCommand>();
+        this.commands = new ArrayDeque<>();
         this.storeModelService = StoreModelService.getInstance();
         interestedToListen();
     }
