@@ -53,6 +53,13 @@ public class StoreControllerService implements IObserver {
     }
 
     /**
+     * Deregisters and SCS stops listening
+     */
+    public void stopListening(){
+        this.storeModelService.deregister(this);
+    }
+
+    /**
      * Used for adding commands as they come in to be executed later
      * @param command
      * @return a command

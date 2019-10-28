@@ -28,6 +28,7 @@ public class CleanStoreCommand extends AbstractCommand {
         this.mess = mess;
         this.storeId = storeId;
         this.aisleNumber = aisleNumber;
+        this.shelfId = shelfId;
     }
 
     /**

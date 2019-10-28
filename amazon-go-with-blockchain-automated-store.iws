@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/AssistCustomerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/AssistCustomerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CheckoutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerEnteredCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CustomerEnteredCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/IStoreModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/StoreModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.script" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/CleanStoreCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/CleanStoreCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/controller/StoreControllerService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +73,7 @@
       <workItem from="1571350862654" duration="5834000" />
       <workItem from="1571472203976" duration="12502000" />
       <workItem from="1572057157248" duration="47576000" />
-      <workItem from="1572206412273" duration="7112000" />
+      <workItem from="1572206412273" duration="15170000" />
     </task>
     <servers />
   </component>
