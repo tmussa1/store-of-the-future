@@ -5,7 +5,7 @@ import com.cscie97.store.model.IObserver;
 import com.cscie97.store.model.StoreModelService;
 
 import java.util.ArrayDeque;
-import java.util.Collection;
+import java.util.Deque;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class StoreControllerService implements IObserver {
 
-    Collection<AbstractCommand> commands;
+    Deque<AbstractCommand> commands;
     StoreModelService storeModelService;
     private String controllerName;
 
@@ -88,5 +88,12 @@ public class StoreControllerService implements IObserver {
      */
     public String getControllerName() {
         return controllerName;
+    }
+
+    @Override
+    public String toString() {
+        return "StoreControllerService{" +
+                "controllerName='" + controllerName + '\'' +
+                '}';
     }
 }

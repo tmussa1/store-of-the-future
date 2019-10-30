@@ -226,9 +226,26 @@ public class CreateUtil {
         return DetailsUtil.outputConfirmation(applianceCommand);
     }
 
+    /**
+     *
+     * @param storeModelService
+     * @param event
+     * @return event creation confirmation
+     */
     public static String createEventSCSListensTo(IStoreModelService storeModelService, Event event){
         Event anEvent = storeModelService.createAnEvent(event);
         return DetailsUtil.outputConfirmation(anEvent.getMessage());
+    }
+
+    /**
+     * Adds an observer to SMS
+     * @param storeModelService
+     * @param observer
+     * @return adds new observer
+     */
+    public static String createAnObserver(IStoreModelService storeModelService, IObserver observer){
+        storeModelService.getObservers().add(observer);
+        return DetailsUtil.outputConfirmation(observer.toString());
     }
 
     /**

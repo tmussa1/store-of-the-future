@@ -1,5 +1,6 @@
 package com.cscie97.store.model.test;
 
+import com.cscie97.store.controller.StoreControllerService;
 import com.cscie97.store.model.Event;
 import com.cscie97.store.model.IStoreModelService;
 import com.cscie97.store.model.StoreException;
@@ -216,7 +217,9 @@ public class CommandProcessor {
                     return ExceptionUtil.outputException(lineNumber, "Appliance command not sent", e);
                 }
             case "create-controller":
-            case "register-controller":
+                StoreControllerService controller = new StoreControllerService(commandWords[1]);
+                storeModelService.getObservers().add(controller);
+                return CreateUtil.createAnObserver(storeModelService, controller);
             case "invoke-commands":
             case "entering":
             case "emergency":

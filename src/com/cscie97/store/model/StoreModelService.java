@@ -3,6 +3,7 @@ package com.cscie97.store.model;
 import com.cscie97.store.controller.StoreControllerServiceException;
 
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -730,18 +731,33 @@ public class StoreModelService implements IStoreModelService, ISubject {
 
 
     /**
+     * List of observers
+     * @return list of observers
+     */
+    @Override
+    public List<IObserver> getObservers() {
+        return observers;
+    }
+
+    /**
      * Notifies all of the observers with an event
      * @param event
      */
     @Override
     public void notify(Event event) {
-        observers.stream().forEach(observer -> {
-            try {
-                observer.update(event);
-            } catch (StoreControllerServiceException e) {
-                logger.warning("Failed to notify observers");
+        CopyOnWriteArrayList<IObserver> observerList = new CopyOnWriteArrayList<>(observers);
+
+        synchronized (observerList) {
+            Iterator<IObserver> observerIterator = observerList.iterator();
+            while (observerIterator.hasNext()) {
+                IObserver observer = observerIterator.next();
+                try {
+                    observer.update(event);
+                } catch (StoreControllerServiceException e) {
+                    logger.info("Unable to update observers");
+                }
             }
-        });
+        }
     }
 
     /**

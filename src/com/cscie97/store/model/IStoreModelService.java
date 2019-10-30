@@ -81,6 +81,8 @@ public interface IStoreModelService {
 
     Event createAnEvent(Event event);
 
+    List<IObserver> getObservers();
+
     void setAuthKey(String authKey);
 }
 

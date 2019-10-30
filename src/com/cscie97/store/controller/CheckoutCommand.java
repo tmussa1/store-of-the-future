@@ -56,6 +56,11 @@ public class CheckoutCommand extends AbstractCommand {
             logger.info("Customer " + customer.getFirstName() + " wants to leave store " + store.getStoreName());
             Basket basket = this.storeModelService.getBasketOfACustomer(customer.getCustomerId());
             logger.info("Customer is associated with basket " + basket.getBasketId());
+            double weight = calculateBasketWeight(basket);
+            if(weight >= 10.0){
+                logger.info("Basket "+ basket.getBasketId() + " has weight bigger than 10lbs");
+
+            }
             Map<Product, Integer> basketItems = this.storeModelService.getBasketItems(basket.getBasketId());
             basketItems.keySet().stream()
                     .forEach(product -> logger.info("Basket contains item " + product.getProductId()));
@@ -98,5 +103,16 @@ public class CheckoutCommand extends AbstractCommand {
                 .stream()
                 .map(product -> product.getPrice() * basketItems.get(product))
                 .reduce(0, Integer::sum);
+    }
+
+    /**
+     * Calculates the total weight of a basket
+     * @param basket
+     * @return weight of a basket
+     */
+    private double calculateBasketWeight(Basket basket) {
+        return basket.getProductsMap().keySet()
+                .stream().map(product -> product.getVolume())
+                .reduce(0.0, Double::sum);
     }
 }

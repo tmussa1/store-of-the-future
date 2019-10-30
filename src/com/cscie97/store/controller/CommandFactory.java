@@ -13,7 +13,7 @@ import java.util.logging.Logger;
  */
 public class CommandFactory {
 
-    private static StoreControllerService storeControllerService;
+    private static StoreControllerService storeControllerService = new StoreControllerService("Cont");
 
     static Logger logger = Logger.getLogger(CommandFactory.class.getName());
 
@@ -24,18 +24,11 @@ public class CommandFactory {
      */
     public static AbstractCommand createCommand(Event event) throws StoreControllerServiceException {
         String [] commandWords = event.getMessage().split(" ");
-        switch(commandWords[0]){
-            case "create-controller":
-                logger.info(createController(commandWords[1]).getControllerName() + " has been created");
-                break;
-            case "register-controller":
-                storeControllerService.interestedToListen();
-                logger.info("SCS expressed interest to listen to SMS events");
-                break;
+        switch(commandWords[0].toLowerCase()){
             case "invoke-commands":
                 storeControllerService.invokeCommands();
                 logger.info("The commands in the queue have been processed");
-                break;
+                return new InvokeCommandsCommand(commandWords[0]);
             case "entering":
                 String [] storeAisle = commandWords[3].split(":");
                 AbstractCommand customerEnteredCommand =  new
@@ -140,7 +133,6 @@ public class CommandFactory {
             default:
                 throw new StoreControllerServiceException("Command not recognizable by the Store Controller Service");
         }
-        return null;
     }
 
     /**
@@ -150,10 +142,8 @@ public class CommandFactory {
      * @return an instance of store controller service
      */
     public static StoreControllerService createController(String command){
-        if(storeControllerService == null){
-            storeControllerService = new StoreControllerService(command);
-        }
-        return storeControllerService;
+        System.out.println("Heloooooooooooooooooooooooooooooooo");
+        return new StoreControllerService(command);
     }
 
 }

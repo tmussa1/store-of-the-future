@@ -1,9 +1,9 @@
 ﻿//////////////////////////////////////////////////////
 define-store store_123 name KMart address EMain Columbus Ohio
-create-controller cont
-register-controller cont
+create-controller cont register-controller
 create-ledger iceland description 'iceland ledger' seed 'vik'
 create-account store_123
+invoke-commands
 show-store store_123
 define-aisle store_123:aisle_A1 description AISLE_A1_desc location STOREROOM
 define-aisle store_123:aisle_A2 description AISLE_A2_desc location FLOOR
