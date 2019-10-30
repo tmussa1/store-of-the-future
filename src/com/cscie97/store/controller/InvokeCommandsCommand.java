@@ -3,7 +3,7 @@ package com.cscie97.store.controller;
 import com.cscie97.store.model.Event;
 
 /**
- * This command forces all commands in the queue to execute 
+ * This command forces all commands in the queue to execute
  * @author Tofik Mussa
  */
 public class InvokeCommandsCommand extends AbstractCommand {
