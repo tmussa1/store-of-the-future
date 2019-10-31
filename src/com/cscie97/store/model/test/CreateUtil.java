@@ -234,7 +234,7 @@ public class CreateUtil {
      */
     public static String createEventSCSListensTo(IStoreModelService storeModelService, Event event){
         Event anEvent = storeModelService.createAnEvent(event);
-        return DetailsUtil.outputConfirmation(anEvent.getMessage());
+        return "An event " + anEvent.getMessage() + " received!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     }
 
     /**

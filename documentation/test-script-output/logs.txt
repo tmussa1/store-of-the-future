@@ -1,0 +1,2387 @@
+=====================================Welcome====================================================
+KMart has been created 
+StoreControllerService{controllerName='cont'} has been created 
+INFO: Ledger initialization request added to queue. We will get back to you
+INFO: Ledger initialization request added to queue. We will get back to you
+INFO: Ledger initialization request added to queue. We will get back to you
+An event create-ledger iceland description 'iceland ledger' seed 'vik' received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account store_123 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Initialized Ledger{name='iceland', description=''iceland', seed='seed', genesisBlock=com.cscie97.ledger.Block@f58003b, blockMap={1=com.cscie97.ledger.Block@f58003b}}
+INFO: Initialized Ledger{name='iceland', description=''iceland', seed='seed', genesisBlock=com.cscie97.ledger.Block@f58003b, blockMap={1=com.cscie97.ledger.Block@f58003b}}
+INFO: Initialized Ledger{name='iceland', description=''iceland', seed='seed', genesisBlock=com.cscie97.ledger.Block@f58003b, blockMap={1=com.cscie97.ledger.Block@f58003b}}
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+store_123
+
+Store KMart is located in Columbus
+Also contains 
+
+
+AISLE_A1_desc has been created 
+AISLE_A2_desc has been created 
+AISLE_A3_desc has been created 
+AISLE_B1_desc has been created 
+AISLE_B2_desc has been created 
+AISLE_B3_desc has been created 
+
+Aisle AISLE_A1_desc is located in STORE_ROOM
+Also contains 
+
+
+
+Aisle AISLE_A2_desc is located in FLOOR
+Also contains 
+
+
+
+Aisle AISLE_B2_desc is located in FLOOR
+Also contains 
+
+
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+Shelf_Q1 has been created 
+Shelf_Q2 has been created 
+Shelf_Q3 has been created 
+Shelf_Q4 has been created 
+Shelf_Q5 has been created 
+
+Shelf Shelf_Q1 is located in aisle_A2
+Also contains 
+
+
+
+Shelf Shelf_Q5 is located in aisle_B1
+Also contains 
+
+
+bournvita has been created 
+tea has been created 
+coffee has been created 
+goggles has been created 
+sun_glass has been created 
+
+Product bournvita is located in Food
+Also contains 
+
+Product{productId=prod10, productName='bournvita', productDescription='bournvita', category='Food', price=2, volume=15625.0, temperature=AMBIENT}
+
+
+inv_u21 has been created 
+inv_u22 has been created 
+inv_u23 has been created 
+inv_u24 has been created 
+inv_u25 has been created 
+inv_u26 has been created 
+
+Inventory inv_u24 is located in aisle_B2
+Also contains 
+
+Product{productId=prod10, productName='bournvita', productDescription='bournvita', category='Food', price=2, volume=15625.0, temperature=AMBIENT}
+
+
+
+Inventory inv_u21 is located in aisle_A1
+Also contains 
+
+Product{productId=prod10, productName='bournvita', productDescription='bournvita', category='Food', price=2, volume=15625.0, temperature=AMBIENT}
+
+
+inv_u24 has been updated. Change is  inventory count updated to 4
+inv_u21 has been updated. Change is  inventory count updated to 7
+JSON has been created 
+BILL has been created 
+MARY has been created 
+SILVER has been created 
+MEGON has been created 
+MARIA has been created 
+SALINA has been created 
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account json received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account bill received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account mary received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account silver received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account megon received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account maria received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+INFO: Create account request added to queue. We will get back to you
+An event create-account salina received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 1 amount 10000 fee 10 payload 'pay store_123' payer master receiver store_123 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 2 amount 10000 fee 10 payload 'pay cust_21' payer master receiver bill received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 3 amount 10000 fee 10 payload 'pay cust_22' payer master receiver mary received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 4 amount 10000 fee 10 payload 'pay cust_23' payer master receiver megon received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 5 amount 10000 fee 10 payload 'pay cust_AB' payer master receiver json received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 6 amount 10000 fee 10 payload 'pay cust_E2' payer master receiver silver received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 7 amount 10000 fee 10 payload 'pay cust_S2' payer master receiver salina received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+INFO: Process transaction added to queue. We will get back to you
+An event process-transaction 8 amount 10000 fee 10 payload 'pay cust_24' payer master receiver maria received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+cust_S2 has been updated. Change is  location of customer updated to aisle_B2
+cust_21 has been updated. Change is  location of customer updated to aisle_A2
+cust_22 has been updated. Change is  location of customer updated to aisle_A1
+cust_AB has been updated. Change is  location of customer updated to aisle_B2
+cust_E2 has been updated. Change is  location of customer updated to aisle_B3
+cust_23 has been updated. Change is  location of customer updated to aisle_B1
+cust_24 has been updated. Change is  location of customer updated to aisle_A1
+
+Customer BILL is located in aisle_A2
+Also contains 
+
+registered
+
+
+
+Customer SALINA is located in aisle_B2
+Also contains 
+
+registered
+
+
+b1 has been created 
+b2 has been created 
+b3 has been created 
+
+Basket b1 is located in cust_21
+Also contains 
+
+
+
+Basket b2 is located in cust_S2
+Also contains 
+
+
+
+Basket b3 is located in cust_22
+Also contains 
+
+
+b1 has been updated. Change is  product count in basket updated to 4
+b3 has been updated. Change is  product count in basket updated to 2
+b3 has been updated. Change is  product count in basket updated to 7
+b1 has been updated. Change is  item with prod10 removed from basket
+b3 has been updated. Change is  item with prod12 removed from basket
+
+Basket b1 is located in  contains items 
+Also contains 
+
+Product{productId=prod10, productName='bournvita', productDescription='bournvita', category='Food', price=2, volume=15625.0, temperature=AMBIENT}
+
+
+MicrophoneA1 has been created 
+CameraA1 has been created 
+CameraA2 has been created 
+CameraB1 has been created 
+
+Sensor CameraA1 is located in  contains items 
+Also contains 
+
+Camera{sensorId='cam_A1', sensorName='CameraA1', type='com.cscie97.store.model.Camera'}
+
+
+
+Sensor MicrophoneA1 is located in  contains items 
+Also contains 
+
+Microphone{sensorId='mic_A1', sensorName='MicrophoneA1', location=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, type='com.cscie97.store.model.Microphone'}
+
+
+
+Sensor CameraA2 is located in  contains items 
+Also contains 
+
+Camera{sensorId='cam_A2', sensorName='CameraA2', type='com.cscie97.store.model.Camera'}
+
+
+CameraA1 detected message  create-sensor-event cam_A1 location store_123:aisle_A2 event watch_store_room has been created 
+MicrophoneA1 detected message create-sensor-event mic_A1 location store_123:aisle_A2 event tell_robot_to_bring_items_from_store_123:aisle_A1 has been created 
+ROBOT_1 has been created 
+ROBOT_2 has been created 
+SPEAKER_1 has been created 
+SPEAKER_2 has been created 
+TURNSTILE_A1 has been created 
+TURNSTILE_A2 has been created 
+TURNSTILE_A3 has been created 
+
+Applaince TURNSTILE_A1 is located in  contains items 
+Also contains 
+
+Turnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=false}
+
+
+
+Applaince ROBOT_2 is located in  contains items 
+Also contains 
+
+Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'}
+
+
+ROBOT_2 detected message CLEAN_FLOOR has been created 
+ROBOT_1 detected message STOCK_SHELL has been created 
+TURNSTILE_A1 detected message COUNT_INVENTORY has been created 
+ROBOT_1 is doing STOCK_SHELL has been created 
+ROBOT_2 is doing CLEAN_FLOOR has been created 
+TURNSTILE_A3 is doing COUNT_INVENTORY has been created 
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_21 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency fire in store_123:aisle_A1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency flood in store_123:aisle_B2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_S2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_AB store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Basket b1 assigned to customer 
+INFO: Basket b1 assigned to customer 
+INFO: Basket b1 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket b2 assigned to customer 
+INFO: Basket b2 assigned to customer 
+INFO: Basket b1 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket b1 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket b2 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket b2 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 190
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 186
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 192
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 188
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 194
+INFO: Basket c076b46e-c484-4130-8f38-d1d6afcf94f5 assigned to customer 
+INFO: Basket 402ffe48-34d4-402b-81a1-92424faaa18d assigned to customer 
+INFO: Customer JSON added bournvita to basket 8dc5ad11-cfec-4310-80dd-3843207f5c3f
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: Customer JSON added bournvita to basket 5e200b55-18cd-4f1a-929f-2936861fb4a4
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket 247ce008-86f6-4818-8cb1-93b2de65d4d8 assigned to customer 
+INFO: Basket 51eda049-487a-4248-bda8-5049443a37c6 assigned to customer 
+INFO: Basket 057570eb-2b21-48ad-8901-8a1e0436018d assigned to customer 
+INFO: Basket 830a9270-3d8c-44c2-b5c4-d7b37d8d5051 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e assigned to customer 
+INFO: Basket ff44cc1a-88a2-4492-b120-4869a55af381 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket 91dcdb35-5925-47fd-a539-01519578466d assigned to customer 
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: Customer JSON added bournvita to basket c2c82fb9-bb0e-4e35-89f4-23ee4e502a48
+INFO: Customer JSON added bournvita to basket b8a1f8d9-1169-4d68-9c19-c7472c83f7dd
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: Basket 72183768-8450-429b-b123-b7a7c378deb8 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer JSON added bournvita to basket 49cb3449-18e5-48e7-87a4-6884a7910f7b
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket fcc0c98c-d4df-4341-a0dc-8bc306edb064 assigned to customer 
+INFO: Basket 0ea68081-f9be-41e8-875f-78da330567c3 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket 5479ef28-fbaa-4ee2-8e31-982eaad9c7c4 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency earthquake in store_123:aisle_B3 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_22 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+INFO: Customer entered command added to queue. We will get back to you
+An event entering customer cust_E2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_23 from store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: Customer MARY added coffee to basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer BILL added tea to basket b1
+INFO: Basket ff92c318-420c-46fc-9f12-baf5cb257343 assigned to customer 
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 180
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer BILL added tea to basket b1
+INFO: Customer MARY added coffee to basket b3
+INFO: Basket b3 assigned to customer 
+INFO: Basket b3 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket ff92c318-420c-46fc-9f12-baf5cb257343 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Basket ff92c318-420c-46fc-9f12-baf5cb257343 assigned to customer 
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket ff92c318-420c-46fc-9f12-baf5cb257343 assigned to customer 
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Customer BILL added coffee to basket b1
+INFO: Basket b3 assigned to customer 
+INFO: Basket b3 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Basket b3 assigned to customer 
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer MARY added coffee to basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 172
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: Customer MARY added coffee to basket b3
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 174
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 176
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 178
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 182
+INFO: Basket ff92c318-420c-46fc-9f12-baf5cb257343 assigned to customer 
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 184
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 88
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Customer BILL added coffee to basket b1
+INFO: Customer BILL added coffee to basket b1
+INFO: Customer BILL added coffee to basket b1
+INFO: Customer BILL added coffee to basket b1
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 168
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 170
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 82
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 80
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer's location updated to store_123 and aisle_A2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 84
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 86
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 88
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 166
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_B3 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 164
+INFO: Customer BILL added tea to basket b1
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 162
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer SALINA added coffee to basket b2
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer BILL added tea to basket b1
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 156
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 158
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 160
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_A2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer BILL added tea to basket b1
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: Customer SALINA added bournvita to basket b2
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 154
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: Customer MARY added coffee to basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer BILL added tea to basket b1
+INFO: Customer SALINA added bournvita to basket b2
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Customer BILL added tea to basket b1
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 150
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 152
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: Customer MARY added coffee to basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer SALINA added bournvita to basket b2
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer SALINA added bournvita to basket b2
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 80
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 146
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 148
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 82
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Customer MARY added coffee to basket b3
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency armed_intruder in store_123:aisle_A2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_AB from store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Turnstile turn_a1 opened for emergency
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 144
+INFO: Turnstile turn_a1 opened for emergency
+INFO: Turnstile turn_a2 opened for emergency
+INFO: Turnstile turn_a3 opened for emergency
+INFO: Customer BILL added coffee to basket b1
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: There is emergency emergency in aisle_A2 please leave store KMart immediately
+INFO: ROBOT_2 is doing Address emergency emergency in aisle_A2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: Turnstile turn_a1 opened for emergency
+INFO: Turnstile turn_a2 opened for emergency
+INFO: Turnstile turn_a3 opened for emergency
+INFO: There is emergency emergency in aisle_A2 please leave store KMart immediately
+INFO: Turnstile turn_a1 opened for emergency
+INFO: Turnstile turn_a2 opened for emergency
+INFO: Turnstile turn_a3 opened for emergency
+INFO: There is emergency emergency in aisle_A2 please leave store KMart immediately
+INFO: ROBOT_2 is doing Address emergency emergency in aisle_A2
+INFO: Customer MARY added tea to basket b3
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 142
+INFO: Customer BILL added coffee to basket b1
+INFO: Turnstile turn_a1 opened for emergency
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 140
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Customer BILL added tea to basket b1
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 88
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 136
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: Turnstile turn_a2 opened for emergency
+INFO: Customer SALINA added coffee to basket b2
+INFO: Turnstile turn_a3 opened for emergency
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer JSON added coffee to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added coffee to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer JSON added coffee to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer MARY added tea to basket b3
+INFO: Customer MARY added tea to basket b3
+INFO: Customer JSON added coffee to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 138
+INFO: Customer JSON added coffee to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 80
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 82
+INFO: Turnstile turn_a2 opened for emergency
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: Customer MARY added tea to basket b3
+INFO: Customer MARY added tea to basket b3
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer BILL added coffee to basket b1
+INFO: ROBOT_2 is doing Address emergency emergency in aisle_A2
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 78
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 76
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 78
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 76
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 78
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 80
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 128
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 130
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Turnstile turn_a3 opened for emergency
+INFO: There is emergency emergency in aisle_A2 please leave store KMart immediately
+INFO: ROBOT_2 is doing Address emergency emergency in aisle_A2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 82
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 132
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 134
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 84
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 86
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: There is emergency emergency in aisle_A2 please leave store KMart immediately
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 88
+INFO: ROBOT_2 is doing Address emergency emergency in aisle_A2
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 82
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 80
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 86
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 84
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_23 from store_123:aisle_A1:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+An event adds prod10 customer cust_24 to store_123:aisle_B2:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+An event adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 124
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 126
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 122
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 120
+INFO: Customer MEGON added tea to basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 118
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Customer MARY removed coffee from basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 92
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 90
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA removed bournvita from basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer removed from and the new inventory count for bournvita is 94
+INFO: ROBOT_2 is doing Put product  bournvita back to store room from shelf_q1 because the customer MARIA no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u25 in store room and the new count in the shelf is 92
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 90
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer MARY removed coffee from basket b3
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA removed bournvita from basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA removed bournvita from basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer removed from and the new inventory count for bournvita is 78
+INFO: ROBOT_2 is doing Put product  bournvita back to store room from shelf_q1 because the customer MARIA no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u25 in store room and the new count in the shelf is 76
+INFO: Customer MARIA removed bournvita from basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA removed bournvita from basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARY removed coffee from basket b3
+INFO: Customer MARY removed coffee from basket b3
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 96
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 94
+INFO: The inventory inv_u25 has been updated to reflect what the customer removed from and the new inventory count for bournvita is 80
+INFO: The inventory inv_u25 has been updated to reflect what the customer removed from and the new inventory count for bournvita is 78
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 76
+INFO: The inventory inv_u25 has been updated to reflect what the customer removed from and the new inventory count for bournvita is 78
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 76
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 78
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 80
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 82
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 100
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Put product  bournvita back to store room from shelf_q1 because the customer MARIA no longer wants to purchase the item
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Put product  bournvita back to store room from shelf_q1 because the customer MARIA no longer wants to purchase the item
+INFO: ROBOT_2 is doing Put product  bournvita back to store room from shelf_q1 because the customer MARIA no longer wants to purchase the item
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 98
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 98
+INFO: Robot rob_2 has stored inv_u25 in store room and the new count in the shelf is 94
+INFO: Robot rob_2 has stored inv_u25 in store room and the new count in the shelf is 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 98
+INFO: Robot rob_2 has stored inv_u25 in store room and the new count in the shelf is 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 98
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 98
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 100
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+An event adds prod11 customer cust_23 to store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MEGON removed tea from basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer MEGON removed tea from basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer MEGON removed tea from basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u23 has been updated to reflect what the customer removed from and the new inventory count for tea is 124
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Customer MEGON removed tea from basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: The inventory inv_u23 has been updated to reflect what the customer removed from and the new inventory count for tea is 120
+INFO: The inventory inv_u23 has been updated to reflect what the customer removed from and the new inventory count for tea is 122
+INFO: Customer BILL added tea to basket b1
+INFO: Customer MEGON removed tea from basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 124
+INFO: The inventory inv_u23 has been updated to reflect what the customer removed from and the new inventory count for tea is 126
+INFO: The inventory inv_u23 has been updated to reflect what the customer removed from and the new inventory count for tea is 126
+INFO: Customer BILL added tea to basket b1
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer BILL added tea to basket b1
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 122
+INFO: Customer SALINA added bournvita to basket b2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer BILL added tea to basket b1
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 120
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 124
+INFO: Customer JSON added bournvita to basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 92
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 118
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+An event adds prod12 customer cust_S2 to store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+INFO: Product added back to shelf command added to queue. We will get back to you
+An event adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency earthquake in store_123:aisle_A1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+INFO: Emergency command added to queue. We will get back to you
+An event emergency armed_intruder in store_123:aisle_B2 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod11 on store_123:aisle_A1:shelf_q2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_A1 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_B2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer MEGON reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer SILVER reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer MARY reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+INFO: Product added to basket command added to queue. We will get back to you
+An event removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MARY added tea to basket b3
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 116
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer SALINA added coffee to basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer MARY added tea to basket b3
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 114
+INFO: Customer MARY added tea to basket b3
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 112
+INFO: Customer SALINA removed coffee from basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer SALINA no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Customer SALINA removed coffee from basket b2
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer SALINA no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Customer MARY removed coffee from basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Customer MARY removed coffee from basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Customer MARY removed coffee from basket b3
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod11 in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod11 in aisle_A1
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up broken_glass in aisle_A1
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer SILVER found in aisle_A2
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 94
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Customer BILL added coffee to basket b1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Inventory count for inv_u23 updated from 110 to 108 because the dropped item  will no longer be for sale 
+INFO: Inventory count for inv_u23 updated from 112 to 110 because the dropped item  will no longer be for sale 
+INFO: Customer MARY found in aisle_A2
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up broken_glass in aisle_A1
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Customer BILL added tea to basket b1
+INFO: Customer BILL added tea to basket b1
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer SALINA added coffee to basket b2
+INFO: Customer BILL added tea to basket b1
+INFO: Customer MARY added tea to basket b3
+INFO: Customer MARY added tea to basket b3
+INFO: Customer SALINA removed coffee from basket b2
+INFO: Customer SALINA removed coffee from basket b2
+INFO: Customer SALINA removed coffee from basket b2
+INFO: Customer MARY removed coffee from basket b3
+INFO: Customer MARY removed coffee from basket b3
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: There is emergency emergency in aisle_A1 please leave store KMart immediately
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod11 in aisle_A1
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Customer BILL added tea to basket b1
+INFO: Customer MARY added coffee to basket b3
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer MARY added coffee to basket b3
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer SILVER found in aisle_A2
+INFO: Customer SILVER found in aisle_A2
+INFO: Customer SILVER found in aisle_A2
+INFO: Customer MARY found in aisle_A2
+INFO: Customer MARY found in aisle_A2
+INFO: Customer MARIA added bournvita to basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 82
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: Customer MARY found in aisle_A2
+INFO: Customer SILVER found in aisle_A2
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 84
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 86
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 86
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 96
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 88
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 88
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 90
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 90
+INFO: The inventory inv_u25 has been updated to reflect what the customer picked up and the new inventory count for bournvita is 92
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 98
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 90 to 88 because the dropped item  will no longer be for sale 
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 88 to 86 because the dropped item  will no longer be for sale 
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 100
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 94
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up broken_glass in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up broken_glass in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod11 in aisle_A1
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod11 in aisle_A1
+INFO: Inventory count for inv_u23 updated from 98 to 96 because the dropped item  will no longer be for sale 
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: ROBOT_1 is doing Address emergency emergency in aisle_A1
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 102
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 100
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 98
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 96
+INFO: The inventory inv_u26 has been updated to reflect what the customer removed from and the new inventory count for coffee is 94
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer SALINA no longer wants to purchase the item
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 98
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 100
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 102
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 92
+INFO: The inventory inv_u26 has been updated to reflect what the customer picked up and the new inventory count for coffee is 94
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 104
+INFO: The inventory inv_u23 has been updated to reflect what the customer picked up and the new inventory count for tea is 106
+INFO: ROBOT_1 is doing Robot cleaning up broken_glass in aisle_A1
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 94
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer SALINA no longer wants to purchase the item
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer SALINA no longer wants to purchase the item
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 92
+INFO: ROBOT_2 is doing Put product  coffee back to store room from shelf_q3 because the customer MARY no longer wants to purchase the item
+INFO: Inventory count for inv_u23 updated from 92 to 90 because the dropped item  will no longer be for sale 
+INFO: Inventory count for inv_u23 updated from 94 to 92 because the dropped item  will no longer be for sale 
+INFO: Inventory count for inv_u25 updated from 82 to 80 because the dropped item  will no longer be for sale 
+INFO: Inventory count for inv_u25 updated from 84 to 82 because the dropped item  will no longer be for sale 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: Inventory count for inv_u25 updated from 86 to 84 because the dropped item  will no longer be for sale 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q3 because coffee has been removed 
+INFO: ROBOT_2 is doing Restock shelf shelf_q1 because bournvita has been removed 
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 94
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 82
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 92
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 90
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 94
+INFO: Robot rob_2 has stored inv_u26 in store room and the new count in the shelf is 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 98
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u26 is brought back to 96
+INFO: Robot rob_2 has restocked the shelf and updated count for inv_u25 is brought back to 84
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_B3 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+INFO: Broken glass command added to queue. We will get back to you
+An event broken_glass in store_123:aisle_A2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+INFO: Product dropped to floor command added to queue. We will get back to you
+An event dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer MARIA reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer BILL reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 3 of prod10 customer cust_21 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 5 of prod11 customer cust_22 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer SALINA reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+INFO: Missing person command added to queue. We will get back to you
+An event find_customer JSON reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 84 to 82 because the dropped item  will no longer be for sale 
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 82 to 80 because the dropped item  will no longer be for sale 
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 80 to 78 because the dropped item  will no longer be for sale 
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 78 to 76 because the dropped item  will no longer be for sale 
+INFO: Customer MARIA found in aisle_A2
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Customer SALINA found in aisle_A2
+INFO: Customer JSON found in aisle_A2
+INFO: Customer SALINA found in aisle_A2
+INFO: Customer BILL needs an item bournvita
+INFO: Customer BILL found in aisle_A2
+INFO: Customer BILL found in aisle_A2
+INFO: Customer MARIA found in aisle_A2
+INFO: Customer MARIA found in aisle_A2
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 74 to 72 because the dropped item  will no longer be for sale 
+INFO: Customer MARIA found in aisle_A2
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_2 is assigned to find item to customer BILL
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 72 to 70 because the dropped item  will no longer be for sale 
+INFO: Customer BILL found in aisle_A2
+INFO: Customer BILL found in aisle_A2
+INFO: Customer BILL needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer BILL
+INFO: Customer MARY needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer SALINA found in aisle_A2
+INFO: Customer SALINA found in aisle_A2
+INFO: Customer JSON found in aisle_A2
+INFO: Customer JSON found in aisle_A2
+INFO: Customer BILL needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer BILL
+INFO: Customer MARY needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer SALINA found in aisle_A2
+INFO: Customer JSON found in aisle_A2
+INFO: Customer JSON found in aisle_A2
+INFO: Inventory count for inv_u25 updated from 76 to 74 because the dropped item  will no longer be for sale 
+INFO: Customer BILL needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer BILL
+INFO: Customer BILL found in aisle_A2
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 70 to 68 because the dropped item  will no longer be for sale 
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: Robot rob_1 is assigned to clean the mess
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 68 to 66 because the dropped item  will no longer be for sale 
+INFO: Customer BILL needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer BILL
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Robot rob_2 is assigned to clean the mess
+INFO: ROBOT_2 is doing Robot cleaning up broken_glass in aisle_A2
+INFO: Customer MARIA found in aisle_A2
+INFO: ROBOT_1 is doing Robot cleaning up dropped_prod10 in aisle_A1
+INFO: Inventory count for inv_u25 updated from 66 to 64 because the dropped item  will no longer be for sale 
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_B1 customer cust_S2 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_A2 customer cust_22 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_24 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_21 reporter turn_a2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_B2 customer cust_21 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 7 of prod12 customer cust_E2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 9 of prod11 customer cust_23 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 8 of prod12 customer cust_S2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 9 of prod11 customer cust_24 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer SALINA's location updated from aisle_B1 to aisle_B1
+INFO: Customer MARY's location updated from aisle_A2 to aisle_A2
+INFO: Customer SALINA's location updated from aisle_B1 to aisle_B1
+INFO: Customer MARY's location updated from aisle_A2 to aisle_A2
+INFO: Customer MARY's location updated from aisle_A2 to aisle_A2
+INFO: Customer SALINA's location updated from aisle_B1 to aisle_B1
+INFO: Customer SALINA's location updated from aisle_B1 to aisle_B1
+INFO: Customer BILL with basket b1 is requesting assistance because the basket currently weighs 141625.0
+INFO: Customer MARIA with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e is requesting assistance because the basket currently weighs 15625.0
+INFO: Customer MARY's location updated from aisle_A2 to aisle_A2
+INFO: Customer MARIA with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e is requesting assistance because the basket currently weighs 15625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARIA to car
+INFO: ROBOT_2 is doing Help customer MARIA in aisle aisle_A2 to get to his/her car
+INFO: Customer SALINA's location updated from aisle_B1 to aisle_B1
+INFO: Customer MARY's location updated from aisle_A2 to aisle_A2
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Customer BILL with basket b1 is requesting assistance because the basket currently weighs 141625.0
+INFO: Customer SILVER needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer SILVER
+INFO: Customer MEGON needs an item tea
+INFO: Customer MARIA needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARIA
+INFO: Customer SALINA needs an item coffee
+INFO: Customer SALINA needs an item coffee
+INFO: Customer SALINA needs an item coffee
+INFO: Customer MEGON needs an item tea
+INFO: Customer SALINA needs an item coffee
+INFO: Customer SALINA needs an item coffee
+INFO: Customer MARIA needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARIA
+INFO: Customer MARIA needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARIA
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARIA to car
+INFO: ROBOT_2 is doing Help customer MARIA in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer MARIA needs an item tea
+INFO: Customer MARIA needs an item tea
+INFO: Robot rob_2 is assigned to find item to customer MARIA
+INFO: Customer MARIA with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e is requesting assistance because the basket currently weighs 15625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARIA to car
+INFO: ROBOT_2 is doing Help customer MARIA in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer MARIA with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e is requesting assistance because the basket currently weighs 15625.0
+INFO: Customer MARIA with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e is requesting assistance because the basket currently weighs 15625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARIA to car
+INFO: ROBOT_2 is doing Help customer MARIA in aisle aisle_A2 to get to his/her car
+INFO: Customer BILL with basket b1 is requesting assistance because the basket currently weighs 141625.0
+INFO: Customer BILL with basket b1 is requesting assistance because the basket currently weighs 141625.0
+INFO: Customer BILL's location updated from aisle_B2 to aisle_B2
+INFO: Customer MEGON needs an item tea
+INFO: Customer BILL's location updated from aisle_B2 to aisle_B2
+INFO: Customer BILL's location updated from aisle_B2 to aisle_B2
+INFO: Customer MEGON needs an item tea
+INFO: Customer MEGON needs an item tea
+INFO: Customer SILVER needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer SILVER
+INFO: Customer SILVER needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer SILVER
+INFO: Customer SILVER needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer SILVER
+INFO: Customer SILVER needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer SILVER
+INFO: Customer BILL's location updated from aisle_B2 to aisle_B2
+INFO: Customer BILL's location updated from aisle_B2 to aisle_B2
+INFO: Customer BILL with basket b1 is requesting assistance because the basket currently weighs 141625.0
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARIA to car
+INFO: ROBOT_2 is doing Help customer MARIA in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Robot rob_2 is assigned to find item to customer MARIA
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_B3 customer cust_24 reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_B1 customer cust_E2 reporter cam_B2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_AB reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_S2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_21 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_23 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_B3 customer cust_23 reporter cam_A2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+INFO: Customer seen command added to queue. We will get back to you
+An event seen_at store_123:aisle_A2 customer cust_AB reporter cam_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 2 of prod10 customer cust_S2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 3 of prod11 customer cust_24 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_22 reporter turn_a3 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_23 reporter turn_a2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MARIA's location updated from aisle_B3 to aisle_B3
+INFO: Customer SILVER's location updated from aisle_B1 to aisle_B1
+INFO: Customer MARIA's location updated from aisle_B3 to aisle_B3
+INFO: Customer MARIA's location updated from aisle_B3 to aisle_B3
+INFO: Customer MARIA's location updated from aisle_B3 to aisle_B3
+INFO: Customer MARIA's location updated from aisle_B3 to aisle_B3
+INFO: Customer SILVER's location updated from aisle_B1 to aisle_B1
+INFO: Customer SALINAfound
+INFO: Customer BILLfound
+INFO: Customer SALINAfound
+INFO: Customer JSONfound
+INFO: Customer SILVER's location updated from aisle_B1 to aisle_B1
+INFO: Customer JSONfound
+INFO: Customer JSONfound
+INFO: Customer MEGON's location updated from aisle_B3 to aisle_B3
+INFO: Customer MEGON's location updated from aisle_B3 to aisle_B3
+INFO: Customer MEGONfound
+INFO: Customer MEGON's location updated from aisle_B3 to aisle_B3
+INFO: Customer JSON's location updated from aisle_A2 to aisle_A2
+INFO: Customer JSON's location updated from aisle_A2 to aisle_A2
+INFO: Customer SALINA needs an item bournvita
+INFO: Customer JSONfound
+INFO: Customer SALINAfound
+INFO: Customer MEGONfound
+INFO: Customer MARIA needs an item tea
+INFO: Customer MARIA needs an item tea
+INFO: Customer MARY with basket b3 is requesting assistance because the basket currently weighs 126000.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARY to car
+INFO: ROBOT_2 is doing Help customer MARY in aisle aisle_A2 to get to his/her car
+INFO: Customer BILLfound
+INFO: Customer MEGON with basket b888790c-aec9-4b43-8d57-d9a895d2cf98 is requesting assistance because the basket currently weighs 125000.0
+INFO: Customer MEGON with basket b888790c-aec9-4b43-8d57-d9a895d2cf98 is requesting assistance because the basket currently weighs 125000.0
+INFO: Customer BILLfound
+INFO: Customer SILVER's location updated from aisle_B1 to aisle_B1
+INFO: Customer JSONfound
+INFO: Customer SILVER's location updated from aisle_B1 to aisle_B1
+INFO: Customer SALINAfound
+INFO: Customer MEGONfound
+INFO: Customer SALINAfound
+INFO: Customer BILLfound
+INFO: Customer MEGON's location updated from aisle_B3 to aisle_B3
+INFO: Customer MARY with basket b3 is requesting assistance because the basket currently weighs 126000.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARY to car
+INFO: ROBOT_2 is doing Help customer MARY in aisle aisle_A2 to get to his/her car
+INFO: Customer SALINA needs an item bournvita
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer BILLfound
+INFO: Customer MARIA needs an item tea
+INFO: Customer SALINA needs an item bournvita
+INFO: Customer JSON's location updated from aisle_A2 to aisle_A2
+INFO: Customer MEGON with basket b888790c-aec9-4b43-8d57-d9a895d2cf98 is requesting assistance because the basket currently weighs 125000.0
+INFO: Customer MEGON with basket b888790c-aec9-4b43-8d57-d9a895d2cf98 is requesting assistance because the basket currently weighs 125000.0
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Customer MARY with basket b3 is requesting assistance because the basket currently weighs 126000.0
+INFO: Customer SALINA needs an item bournvita
+INFO: Customer MEGON with basket b888790c-aec9-4b43-8d57-d9a895d2cf98 is requesting assistance because the basket currently weighs 125000.0
+INFO: Customer MEGONfound
+INFO: Customer MARY with basket b3 is requesting assistance because the basket currently weighs 126000.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARY to car
+INFO: ROBOT_2 is doing Help customer MARY in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer MARY with basket b3 is requesting assistance because the basket currently weighs 126000.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARY to car
+INFO: Customer MARIA needs an item tea
+INFO: Customer MARIA needs an item tea
+INFO: Customer SALINA needs an item bournvita
+INFO: Customer JSON's location updated from aisle_A2 to aisle_A2
+INFO: Customer MEGONfound
+INFO: Customer JSON's location updated from aisle_A2 to aisle_A2
+INFO: Customer MEGON's location updated from aisle_B3 to aisle_B3
+INFO: ROBOT_2 is doing Help customer MARY in aisle aisle_A2 to get to his/her car
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer MARY to car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=false} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: ROBOT_2 is doing Help customer MARY in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_AB reporter turn_a2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 4 of prod12 customer cust_AB reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 5 of prod10 customer cust_AB reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 4 of prod11 customer cust_E2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 12 of prod12 customer cust_23 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 16 of prod11 customer cust_21 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+INFO: Customer needs a product command added to queue. We will get back to you
+An event wants 7 of prod10 customer cust_22 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_22 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_24 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer JSON with basket 22e3a46d-08f4-4761-ad6c-959d665af15a is requesting assistance because the basket currently weighs 16625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer JSON to car
+INFO: ROBOT_2 is doing Help customer JSON in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer BILL needs an item tea
+INFO: Customer MARYfound
+INFO: Customer JSON with basket 22e3a46d-08f4-4761-ad6c-959d665af15a is requesting assistance because the basket currently weighs 16625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer JSON to car
+INFO: ROBOT_2 is doing Help customer JSON in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer MARYfound
+INFO: Customer MARYfound
+INFO: Customer JSON needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer MARIAfound
+INFO: Customer MARIAfound
+INFO: Customer MARIAfound
+INFO: Customer JSON with basket 22e3a46d-08f4-4761-ad6c-959d665af15a is requesting assistance because the basket currently weighs 16625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer JSON to car
+INFO: ROBOT_2 is doing Help customer JSON in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer JSON needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer SILVER needs an item tea
+INFO: Customer JSON needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer SILVER needs an item tea
+INFO: Customer JSON needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer SILVER needs an item tea
+INFO: Customer MEGON needs an item coffee
+INFO: Customer MEGON needs an item coffee
+INFO: Customer JSON with basket 22e3a46d-08f4-4761-ad6c-959d665af15a is requesting assistance because the basket currently weighs 16625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer JSON to car
+INFO: ROBOT_2 is doing Help customer JSON in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer JSON with basket 22e3a46d-08f4-4761-ad6c-959d665af15a is requesting assistance because the basket currently weighs 16625.0
+INFO: Robot Robot{sensorId='rob_2', sensorName='ROBOT_2', sensorLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, sensorType='robot'} assigned to help customer JSON to car
+INFO: ROBOT_2 is doing Help customer JSON in aisle aisle_A2 to get to his/her car
+INFO: The customer has already checked out at this point and turnstileTurnstile{applianceId='turn_a1', applianceName='TURNSTILE_A1', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true}is opening for customer to exit
+INFO: Turnstile Turnstile{applianceId='turn_a2', applianceName='TURNSTILE_A2', applianceLocation=InventoryLocation{storeId='store_123', aisleNumber='aisle_A2', shelfId=''}, applianceType='com.cscie97.store.model.Turnstile', isOpen=true} opening for assisting robot
+INFO: Turnstiles closed
+INFO: Customer JSON needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer JSON needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer JSON needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer JSON needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer JSON needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer SILVER needs an item tea
+INFO: Customer SILVER needs an item tea
+INFO: Customer MEGON needs an item coffee
+INFO: Customer MEGON needs an item coffee
+INFO: Customer MEGON needs an item coffee
+INFO: Customer BILL needs an item tea
+INFO: Customer BILL needs an item tea
+INFO: Customer MARY needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARIAfound
+INFO: Customer MARIAfound
+INFO: Customer JSON needs an item coffee
+INFO: Robot rob_2 is assigned to find item to customer JSON
+INFO: Customer BILL needs an item tea
+INFO: Customer BILL needs an item tea
+INFO: Customer MARY needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARY needs an item bournvita
+INFO: Robot rob_2 is assigned to find item to customer MARY
+INFO: Customer MARYfound
+INFO: Customer MARYfound
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+INFO: Check account balance query added to queue. We will get back to you
+An event basket_value wanted customer cust_E2 reporter mic_A1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_E2 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+INFO: Weight assistance command added to queue. We will get back to you
+An event weight_assistance wanted customer cust_S2 reporter turn_a3 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2 reporter turn_a3 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a1 customer cust_E2 location store_123:aisle_A2 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a1 customer cust_21 location store_123:aisle_A2 reporter turn_a1 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Customer SILVERfound
+INFO: Customer SILVERfound
+INFO: Customer SILVERfound
+INFO: Customer SILVER with basket ff92c318-420c-46fc-9f12-baf5cb257343 is requesting assistance because the basket currently weighs 0.0
+INFO: Customer SILVER with basket ff92c318-420c-46fc-9f12-baf5cb257343 is requesting assistance because the basket currently weighs 0.0
+INFO: Customer SALINA with basket b2 is requesting assistance because the basket currently weighs 16625.0
+INFO: Customer SILVERfound
+INFO: Customer SALINA with basket b2 is requesting assistance because the basket currently weighs 16625.0
+INFO: Customer SILVER with basket ff92c318-420c-46fc-9f12-baf5cb257343 is requesting assistance because the basket currently weighs 0.0
+INFO: Customer BILL wants to leave store KMart
+INFO: Customer BILL wants to leave store KMart
+INFO: Customer is associated with basket b1
+INFO: Customer SILVER with basket ff92c318-420c-46fc-9f12-baf5cb257343 is requesting assistance because the basket currently weighs 0.0
+INFO: Customer SILVER wants to leave store KMart
+INFO: Customer is associated with basket ff92c318-420c-46fc-9f12-baf5cb257343
+INFO: Customer SILVER with basket ff92c318-420c-46fc-9f12-baf5cb257343 is requesting assistance because the basket currently weighs 0.0
+INFO: Customer SALINA with basket b2 is requesting assistance because the basket currently weighs 16625.0
+INFO: Customer MARY wants to leave store KMart
+INFO: Customer is associated with basket b3
+INFO: Customer SILVER wants to leave store KMart
+INFO: Basket b1 has weight bigger than 10lbs
+INFO: Customer SALINA with basket b2 is requesting assistance because the basket currently weighs 16625.0
+INFO: Customer BILL wants to leave store KMart
+INFO: Customer SALINA with basket b2 is requesting assistance because the basket currently weighs 16625.0
+INFO: Customer MARY wants to leave store KMart
+INFO: Customer is associated with basket b3
+INFO: Basket b3 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: Basket contains item prod11
+INFO: Customer MARY wants to leave store KMart
+INFO: Customer is associated with basket b3
+INFO: Customer SILVER wants to leave store KMart
+INFO: Customer SILVER wants to leave store KMart
+INFO: Customer is associated with basket ff92c318-420c-46fc-9f12-baf5cb257343
+INFO: Customer SILVER wants to leave store KMart
+INFO: Customer is associated with basket ff92c318-420c-46fc-9f12-baf5cb257343
+INFO: The amount due  for customer at checkout is 0
+INFO: Customer MARY wants to leave store KMart
+INFO: Customer is associated with basket b3
+INFO: Basket b3 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 36
+INFO: Customer SILVERfound
+INFO: Customer MARY wants to leave store KMart
+INFO: The amount due  for customer at checkout is 81
+INFO: The amount due  for customer at checkout is 0
+INFO: Customer is associated with basket ff92c318-420c-46fc-9f12-baf5cb257343
+INFO: Basket b3 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 36
+INFO: Customer is associated with basket b1
+INFO: Basket b1 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 81
+INFO: Basket b3 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 36
+INFO: Customer is associated with basket ff92c318-420c-46fc-9f12-baf5cb257343
+INFO: The amount due  for customer at checkout is 0
+INFO: Customer BILL wants to leave store KMart
+INFO: Customer is associated with basket b1
+INFO: Basket b1 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 81
+INFO: Customer is associated with basket b1
+INFO: Customer BILL wants to leave store KMart
+INFO: Customer is associated with basket b1
+INFO: Basket b1 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: Basket b1 has weight bigger than 10lbs
+INFO: The amount due  for customer at checkout is 0
+INFO: Basket contains item prod12
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 36
+INFO: The amount due  for customer at checkout is 0
+INFO: Customer is associated with basket b3
+INFO: Basket b3 has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: Basket contains item prod11
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 81
+INFO: The amount due  for customer at checkout is 81
+INFO: Basket contains item prod12
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 36
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a3 customer cust_24 location store_123:aisle_A2 reporter turn_a3 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a2 customer cust_23 location store_123:aisle_A2 reporter turn_a2 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+INFO: Check out command added to queue. We will get back to you
+An event approached_turnstile turn_a3 customer cust_AB location store_123:aisle_A2 reporter turn_a3 received!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO: Customer MARIA wants to leave store KMart
+INFO: Customer is associated with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e has weight bigger than 10lbs
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 76
+INFO: Customer JSON wants to leave store KMart
+INFO: Customer is associated with basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 55
+INFO: Customer MARIA wants to leave store KMart
+INFO: Customer is associated with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Customer MARIA wants to leave store KMart
+INFO: Customer is associated with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e has weight bigger than 10lbs
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 76
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e has weight bigger than 10lbs
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 76
+INFO: Customer MARIA wants to leave store KMart
+INFO: Customer is associated with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e has weight bigger than 10lbs
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 76
+INFO: Customer MEGON wants to leave store KMart
+INFO: Customer is associated with basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Basket b888790c-aec9-4b43-8d57-d9a895d2cf98 has weight bigger than 10lbs
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 5
+INFO: Customer MEGON wants to leave store KMart
+INFO: Customer is associated with basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Basket b888790c-aec9-4b43-8d57-d9a895d2cf98 has weight bigger than 10lbs
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 5
+INFO: Customer JSON wants to leave store KMart
+INFO: Customer is associated with basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 55
+INFO: Customer JSON wants to leave store KMart
+INFO: Customer is associated with basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 55
+INFO: Customer MARIA wants to leave store KMart
+INFO: Customer is associated with basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e
+INFO: Basket c3ab4bc3-fec1-4fd1-b530-af65c2d34b0e has weight bigger than 10lbs
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 76
+INFO: Customer MEGON wants to leave store KMart
+INFO: Customer is associated with basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Basket b888790c-aec9-4b43-8d57-d9a895d2cf98 has weight bigger than 10lbs
+INFO: Basket contains item prod11
+INFO: The amount due  for customer at checkout is 5
+INFO: Customer MEGON wants to leave store KMart
+INFO: Customer is associated with basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Customer JSON wants to leave store KMart
+INFO: Customer is associated with basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 55
+INFO: Basket b888790c-aec9-4b43-8d57-d9a895d2cf98 has weight bigger than 10lbs
+INFO: Customer MEGON wants to leave store KMart
+INFO: Customer is associated with basket b888790c-aec9-4b43-8d57-d9a895d2cf98
+INFO: Basket b888790c-aec9-4b43-8d57-d9a895d2cf98 has weight bigger than 10lbs
+INFO: Basket contains item prod11
+INFO: Basket contains item prod11
+INFO: Customer JSON wants to leave store KMart
+INFO: The amount due  for customer at checkout is 5
+INFO: The amount due  for customer at checkout is 5
+INFO: Customer is associated with basket 22e3a46d-08f4-4761-ad6c-959d665af15a
+INFO: Basket 22e3a46d-08f4-4761-ad6c-959d665af15a has weight bigger than 10lbs
+INFO: Basket contains item prod12
+INFO: Basket contains item prod10
+INFO: The amount due  for customer at checkout is 55
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+INFO: The commands in the queue have been processed
+An event invoke-commands received!!!!!!!!!!!!!!!!!!!!!!!!!!!

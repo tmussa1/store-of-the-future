@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="" />
+    <list default="true" id="b7bddfad-10f9-472c-b98e-643fc79d774c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amazon-go-with-blockchain-automated-store.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Adaeze_Eze_Store_Model_Service_Design_Document_Adaeze_Ezeh.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Assignment3_Script_Syntax.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/CSCIE97 Assignment 3 Gradesheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Connor Garet Design Document (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Connor Garet Design Document.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/SCS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Store 24X7 Controller Service Requirements (3).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/design_document_hw2_santiago_iraola.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/logs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/notesForImp.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/scs-design-document.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CheckoutCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/CheckoutCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/InvokeCommandsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/controller/InvokeCommandsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CreateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/amazon-go-with-blockchain-automated-store/com/cscie97/store/model/test/CreateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CreateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cscie97/store/model/test/CreateUtil.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +44,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/documentation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="RunDashboard">
@@ -51,8 +69,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
-      <output_file path="$PROJECT_DIR$/../../../../../logs.txt" is_save="true" />
+    <configuration name="TestDriver" type="Application" factoryName="Application" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <output_file path="$PROJECT_DIR$/documentation/logs.txt" is_save="true" />
       <option name="MAIN_CLASS_NAME" value="com.cscie97.store.model.test.TestDriver" />
       <module name="amazon-go-with-blockchain-automated-store" />
       <option name="PROGRAM_PARAMETERS" value="src\store.script" />
@@ -76,7 +94,7 @@
       <workItem from="1572057157248" duration="47576000" />
       <workItem from="1572206412273" duration="16219000" />
       <workItem from="1572336380214" duration="6233000" />
-      <workItem from="1572458699808" duration="837000" />
+      <workItem from="1572458699808" duration="13645000" />
     </task>
     <servers />
   </component>

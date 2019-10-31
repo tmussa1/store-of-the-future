@@ -1,0 +1,267 @@
+﻿//////////////////////////////////////////////////////
+define-store store_123 name KMart address EMain Columbus Ohio
+create-controller cont register-controller
+create-ledger iceland description 'iceland ledger' seed 'vik'
+create-account store_123
+invoke-commands
+show-store store_123
+define-aisle store_123:aisle_A1 description AISLE_A1_desc location STOREROOM
+define-aisle store_123:aisle_A2 description AISLE_A2_desc location FLOOR
+define-aisle store_123:aisle_A3 description AISLE_A3_desc location FLOOR
+define-aisle store_123:aisle_B1 description AISLE_B1_desc location STOREROOM
+define-aisle store_123:aisle_B2 description AISLE_B2_desc location FLOOR
+define-aisle store_123:aisle_B3 description AISLE_B3_desc location FLOOR
+show-aisle store_123:aisle_A1
+show-aisle store_123:aisle_A2
+show-aisle store_123:aisle_B2
+define-shelf store_123:aisle_A1:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_A1:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_A1:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_A1:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_A1:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+define-shelf store_123:aisle_A2:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_A2:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_A2:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_A2:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_A2:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+define-shelf store_123:aisle_A3:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_A3:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_A3:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_A3:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_A3:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+define-shelf store_123:aisle_B1:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_B1:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_B1:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_B1:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_B1:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+define-shelf store_123:aisle_B2:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_B2:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_B2:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_B2:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_B2:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+define-shelf store_123:aisle_B3:shelf_q1 name Shelf_Q1 level high description Shelf_Q1_Desc temperature frozen
+define-shelf store_123:aisle_B3:shelf_q2 name Shelf_Q2 level medium description Shelf_Q2_Desc temperature ambient
+define-shelf store_123:aisle_B3:shelf_q3 name Shelf_Q3 level low description Shelf_Q3_Desc temperature refrigerated
+define-shelf store_123:aisle_B3:shelf_q4 name Shelf_Q4 level low description Shelf_Q4_Desc temperature warm
+define-shelf store_123:aisle_B3:shelf_q5 name Shelf_Q5 level medium description Shelf_Q5_Desc temperature hot
+show-shelf store_123:aisle_A2:shelf_q1
+show-shelf store_123:aisle_B1:shelf_q5
+define-product prod10 name bournvita description bournvita size 25 category Food unit_price 2 temperature ambient
+define-product prod11 name tea description green_tea size 50 category Food unit_price 1 temperature ambient
+define-product prod12 name coffee description coffee size 10 category Food unit_price 3 temperature refrigerated
+define-product prod13 name goggles description spectacles size 3 category Men_accessories unit_price 5 temperature ambient
+define-product prod14 name sun_glass description spectacles size 3 category Fashion unit_price 7 temperature ambient
+show-product prod10
+define-inventory inv_u21 location store_123:aisle_A1:shelf_q1 capacity 1500 count 1000 product prod10
+define-inventory inv_u22 location store_123:aisle_A1:shelf_q2 capacity 1500 count 1000 product prod11
+define-inventory inv_u23 location store_123:aisle_B2:shelf_q1 capacity 500 count 200 product prod11
+define-inventory inv_u24 location store_123:aisle_B2:shelf_q2 capacity 500 count 200 product prod10
+define-inventory inv_u25 location store_123:aisle_A2:shelf_q1 capacity 200 count 100 product prod10
+define-inventory inv_u26 location store_123:aisle_A2:shelf_q3 capacity 300 count 100 product prod12
+show-inventory inv_u24
+show-inventory inv_u21
+update-inventory inv_u24 update_count 4
+update-inventory inv_u21 update_count 7
+define-customer cust_AB first_name JSON last_name WALLACE type guest email_address json.wallace@ymail.com account json
+define-customer cust_21 first_name BILL last_name ROSE type registered email_address bill.rose@gmail.com account bill
+define-customer cust_22 first_name MARY last_name KELVIN type registered email_address mary.kevin@yahoomail.com account mary
+define-customer cust_E2 first_name SILVER last_name HAWK type guest email_address silver.hawk@rocketmail.com account silver
+define-customer cust_23 first_name MEGON last_name FOX type guest email_address megonfox@testmail.com account megon
+define-customer cust_24 first_name MARIA last_name WILIAMSON type registered email_address maria4567@ymail.com account maria
+define-customer cust_S2 first_name SALINA last_name GOMEZ type registered email_address salina@gmail.com account salina
+create-account json
+create-account bill
+create-account mary
+create-account silver
+create-account megon
+create-account maria
+create-account salina
+process-transaction 1 amount 10000 fee 10 payload 'pay store_123' payer master receiver store_123
+process-transaction 2 amount 10000 fee 10 payload 'pay cust_21' payer master receiver bill
+process-transaction 3 amount 10000 fee 10 payload 'pay cust_22' payer master receiver mary
+process-transaction 4 amount 10000 fee 10 payload 'pay cust_23' payer master receiver megon
+process-transaction 5 amount 10000 fee 10 payload 'pay cust_AB' payer master receiver json
+process-transaction 6 amount 10000 fee 10 payload 'pay cust_E2' payer master receiver silver
+process-transaction 7 amount 10000 fee 10 payload 'pay cust_S2' payer master receiver salina
+process-transaction 8 amount 10000 fee 10 payload 'pay cust_24' payer master receiver maria
+update-customer cust_S2 location store_123:aisle_B2
+update-customer cust_21 location store_123:aisle_A2
+update-customer cust_22 location store_123:aisle_A1
+update-customer cust_AB location store_123:aisle_B2
+update-customer cust_E2 location store_123:aisle_B3
+update-customer cust_23 location store_123:aisle_B1
+update-customer cust_24 location store_123:aisle_A1
+show-customer cust_21
+show-customer cust_S2
+define-basket b1 customer cust_21
+define-basket b2 customer cust_S2
+define-basket b3 customer cust_22
+get-customer-basket cust_21
+get-customer-basket cust_S2
+get-customer-basket cust_22
+add-basket-item b1 product prod10 item_count 4
+add-basket-item b3 product prod11 item_count 2
+add-basket-item b3 product prod12 item_count 7
+remove-basket-item b1 product prod10 item_count 1
+remove-basket-item b3 product prod12 item_count 5
+show-basket-items b1
+define-sensor mic_A1 name MicrophoneA1 type microphone location store_123:aisle_A2
+define-sensor cam_A1 name CameraA1 type camera location store_123:aisle_A2
+define-sensor cam_A2 name CameraA2 type camera location store_123:aisle_A1
+define-sensor cam_B2 name CameraB1 type camera location store_123:aisle_B2
+show-sensor cam_A1 location store_123:aisle_A2
+show-sensor mic_A1 location store_123:aisle_A2
+show-sensor cam_A2 location store_123:aisle_A1
+create-sensor-event cam_A1 location store_123:aisle_A2 event watch_store_room
+create-sensor-event mic_A1 location store_123:aisle_A2 event tell_robot_to_bring_items_from_store_123:aisle_A1
+define-appliance rob_1 name ROBOT_1 type robot location store_123:aisle_A1
+define-appliance rob_2 name ROBOT_2 type robot location store_123:aisle_A2
+define-appliance spk_1 name SPEAKER_1 type speaker location store_123:aisle_A1
+define-appliance spk_2 name SPEAKER_2 type speaker location store_123:aisle_A2
+define-appliance turn_a1 name TURNSTILE_A1 type turnstile location store_123:aisle_A2
+define-appliance turn_a2 name TURNSTILE_A2 type turnstile location store_123:aisle_A2
+define-appliance turn_a3 name TURNSTILE_A3 type turnstile location store_123:aisle_A2
+show-appliance turn_a1 location store_123:aisle_A2
+show-appliance rob_2 location store_123:aisle_A2
+create-appliance-event rob_2 event CLEAN_FLOOR location store_123:aisle_A2
+create-appliance-event rob_1 event STOCK_SHELL location store_123:aisle_A1
+create-appliance-event turn_a1 event COUNT_INVENTORY location store_123:aisle_A2
+create-appliance-command rob_1 message STOCK_SHELL location store_123:aisle_A1
+create-appliance-command rob_2 message CLEAN_FLOOR location store_123:aisle_A2
+create-appliance-command turn_a3 message COUNT_INVENTORY location store_123:aisle_A2
+entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_21 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+emergency fire in store_123:aisle_A1 reporter cam_A1
+emergency flood in store_123:aisle_B2 reporter cam_B2
+entering customer cust_S2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_AB store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_24 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2
+invoke-commands
+emergency earthquake in store_123:aisle_B3 reporter cam_A2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+entering customer cust_22 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+entering customer cust_E2 store_123:aisle_A2 turnstile turn_a1 reporter turn_a1
+removes prod11 customer cust_23 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+invoke-commands
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_B2
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+broken_glass in store_123:aisle_B3 reporter mic_A1
+invoke-commands
+broken_glass in store_123:aisle_A2 reporter mic_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_A1
+invoke-commands
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A1
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+emergency armed_intruder in store_123:aisle_A2 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod12 customer cust_AB from store_123:aisle_B2:shelf_q1 reporter cam_B2
+invoke-commands
+removes prod11 customer cust_23 from store_123:aisle_A1:shelf_q2 reporter cam_B2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_B2
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A1
+adds prod10 customer cust_24 to store_123:aisle_B2:shelf_q2 reporter cam_A1
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A2
+invoke-commands
+adds prod11 customer cust_23 to store_123:aisle_B2:shelf_q1 reporter cam_B2
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A1
+removes prod10 customer cust_S2 from store_123:aisle_A1:shelf_q1 reporter cam_B2
+removes prod10 customer cust_AB from store_123:aisle_A1:shelf_q1 reporter cam_A2
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2
+dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2
+invoke-commands
+removes prod11 customer cust_21 from store_123:aisle_A1:shelf_q2 reporter cam_A2
+removes prod12 customer cust_S2 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+removes prod11 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+adds prod12 customer cust_S2 to store_123:aisle_B2:shelf_q1 reporter cam_B2
+adds prod12 customer cust_22 to store_123:aisle_B2:shelf_q1 reporter cam_A1
+emergency earthquake in store_123:aisle_A1 reporter cam_B2
+emergency armed_intruder in store_123:aisle_B2 reporter cam_A2
+dropped prod11 on store_123:aisle_A1:shelf_q2 reporter cam_A1
+dropped prod12 on store_123:aisle_B2:shelf_q1 reporter cam_A2
+broken_glass in store_123:aisle_A1 reporter mic_A1
+broken_glass in store_123:aisle_B2 reporter mic_A1
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_B2
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2
+removes prod12 customer cust_22 from store_123:aisle_B2:shelf_q1 reporter cam_A1
+removes prod10 customer cust_24 from store_123:aisle_A1:shelf_q1 reporter cam_B2
+find_customer MEGON reporter mic_A1
+find_customer SILVER reporter mic_A1
+find_customer MARY reporter mic_A1
+removes prod10 customer cust_24 from store_123:aisle_B2:shelf_q2 reporter cam_A2
+removes prod12 customer cust_21 from store_123:aisle_B2:shelf_q1 reporter cam_B2
+dropped prod10 on store_123:aisle_B2:shelf_q2 reporter cam_B2
+invoke-commands
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+broken_glass in store_123:aisle_B3 reporter mic_A1
+broken_glass in store_123:aisle_A2 reporter mic_A1
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_A2
+dropped prod11 on store_123:aisle_B2:shelf_q1 reporter cam_A1
+dropped prod10 on store_123:aisle_A1:shelf_q1 reporter cam_B2
+find_customer MARIA reporter mic_A1
+find_customer BILL reporter mic_A1
+wants 3 of prod10 customer cust_21 reporter mic_A1
+wants 5 of prod11 customer cust_22 reporter mic_A1
+find_customer SALINA reporter mic_A1
+find_customer JSON reporter mic_A1
+invoke-commands
+seen_at store_123:aisle_B1 customer cust_S2 reporter cam_A1
+seen_at store_123:aisle_A2 customer cust_22 reporter cam_A2
+weight_assistance wanted customer cust_24 reporter turn_a1
+weight_assistance wanted customer cust_21 reporter turn_a2
+seen_at store_123:aisle_B2 customer cust_21 reporter cam_B2
+wants 7 of prod12 customer cust_E2 reporter mic_A1
+wants 9 of prod11 customer cust_23 reporter mic_A1
+wants 8 of prod12 customer cust_S2 reporter mic_A1
+wants 9 of prod11 customer cust_24 reporter mic_A1
+invoke-commands
+seen_at store_123:aisle_B3 customer cust_24 reporter cam_A1
+seen_at store_123:aisle_B1 customer cust_E2 reporter cam_B2
+basket_value wanted customer cust_AB reporter mic_A1
+basket_value wanted customer cust_S2 reporter mic_A1
+basket_value wanted customer cust_21 reporter mic_A1
+basket_value wanted customer cust_23 reporter mic_A1
+seen_at store_123:aisle_B3 customer cust_23 reporter cam_A2
+seen_at store_123:aisle_A2 customer cust_AB reporter cam_A1
+wants 2 of prod10 customer cust_S2 reporter mic_A1
+wants 3 of prod11 customer cust_24 reporter mic_A1
+weight_assistance wanted customer cust_22 reporter turn_a3
+weight_assistance wanted customer cust_23 reporter turn_a2
+invoke-commands
+weight_assistance wanted customer cust_AB reporter turn_a2
+wants 4 of prod12 customer cust_AB reporter mic_A1
+wants 5 of prod10 customer cust_AB reporter mic_A1
+wants 4 of prod11 customer cust_E2 reporter mic_A1
+wants 12 of prod12 customer cust_23 reporter mic_A1
+wants 16 of prod11 customer cust_21 reporter mic_A1
+wants 7 of prod10 customer cust_22 reporter mic_A1
+basket_value wanted customer cust_22 reporter mic_A1
+basket_value wanted customer cust_24 reporter mic_A1
+invoke-commands
+basket_value wanted customer cust_E2 reporter mic_A1
+weight_assistance wanted customer cust_E2 reporter turn_a1
+weight_assistance wanted customer cust_S2 reporter turn_a3
+approached_turnstile turn_a3 customer cust_22 location store_123:aisle_A2 reporter turn_a3
+approached_turnstile turn_a1 customer cust_E2 location store_123:aisle_A2 reporter turn_a1
+approached_turnstile turn_a1 customer cust_21 location store_123:aisle_A2 reporter turn_a1
+invoke-commands
+approached_turnstile turn_a3 customer cust_24 location store_123:aisle_A2 reporter turn_a3
+approached_turnstile turn_a2 customer cust_23 location store_123:aisle_A2 reporter turn_a2
+approached_turnstile turn_a3 customer cust_AB location store_123:aisle_A2 reporter turn_a3
+invoke-commands
